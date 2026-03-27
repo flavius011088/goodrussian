@@ -1,0 +1,6 @@
+﻿User-agent: *
+Disallow: /profile/
+Disallow: /platform/
+Disallow: /account/
+Host: https://goodrussian.ru
+Sitemap: https://goodrussian.ru/sitemap.xml
