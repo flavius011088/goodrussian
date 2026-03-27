@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Операция «Карлота»: история солидарности - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .news-content li {
+            margin-bottom: 8px;
+        }
+        .news-video {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #000;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .video-controls {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .video-controls button {
+            background: #d32f2f;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .video-controls button:hover {
+            background: #b71c1c;
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .quote-block {
+            background: #f8f9fa;
+            border-left: 4px solid #d32f2f;
+            padding: 25px;
+            margin: 30px 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Операция «Карлота»</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Операция «Карлота»: история солидарности</h1>
+                            <div class="news-date">23 ноября 2025</div>
+                        </header>
+
+                        <div class="news-content">
+                            <p><strong>Операция «Карлота» была частью кубинской военной операции по освобождению Анголы и Намибии от колониальных сил ЮАР, которая продлилась до 1991 года. Через эту борьбу прошли тысячи кубинцев — военных, врачей, инженеров, учителей.</strong></p>
+
+                            <div class="quote-block">
+                                <p>Первая группа вылетела 7 ноября специальным рейсом «Кубана де авиасьон» на одном из ставших уже легендарными турбовинтовых самолетов «Бристоль-Британия», от которых во всем мире давно отказались. Его пассажиры — они хорошо помнят, что их было 82 человека, как и на «Гранме», — одетые по-летнему, без всяких знаков различия, с чемоданчиками и обычными паспортами, в которых были записаны их настоящие имена, выглядели здоровяками, загоревшими под карибским солнцем.</p>
+                                <footer class="blockquote-footer mt-3">Габриэль Гарсиа Маркес</footer>
+                            </div>
+
+                            <h2>Современное продолжение традиций</h2>
+
+                            <p>Сегодня дух той солидарности жив, но он обретает новые формы. Если вчера помощь выражалась в воинской поддержке и медицинских миссиях, то сегодня — в совместном образовании, культурном диалоге и устойчивых партнёрствах.</p>
+
+                            <div class="news-video">
+                                <h3>Молодые участники из Анголы читают стихи на русском</h3>
+                                <div class="video-container">
+                                    <video id="newsVideo" controls poster="/img/news/news_5_1_thumb.jpg">
+                                        <source src="/video/news_5_1.mp4" type="video/mp4">
+                                        <source src="/video/news_5_1.webm" type="video/webm">
+                                        Ваш браузер не поддерживает видео тег.
+                                    </video>
+                                </div>
+                                <div class="video-controls">
+                                    <button onclick="playPause()">
+                                        <i class="fas fa-play"></i> Воспроизвести/Пауза
+                                    </button>
+                                    <button onclick="makeFullScreen()">
+                                        <i class="fas fa-expand"></i> Полный экран
+                                    </button>
+                                </div>
+                                <p class="text-muted mt-2">Участники образовательных проектов из Анголы читают на русском стихотворение «Родное» советского поэта В. Н. Орлова</p>
+                            </div>
+
+                            <h2>Образовательное сотрудничество</h2>
+
+                            <p>ГИПУ имени В. Г. Короленко при поддержке Фонда «Моя история» уже не первый год развивает активное сотрудничество со странами Латинской Америки, включая прочные связи с Кубой — страной, чья история интернациональной помощи остаётся примером для новых поколений.</p>
+
+                            <p>Одновременно Фонд реализует гуманитарные инициативы в Африке, в том числе в Анголе, Эсватини, Буркина-Фасо, Маврикии и Руанде. Особенно символично, что именно в Анголе — где полвека назад началась операция «Карлота» — сегодня запущены новые образовательные проекты, продолжающие традицию взаимопомощи и диалога между народами.</p>
+
+                            <h2>Живой культурный диалог</h2>
+
+                            <p>Именно такие моменты напоминают нам: солидарность сегодня — это не громкие лозунги, а живой культурный диалог, который рождается в классах, проектах и совместных инициативах.</p>
+
+                            <div class="social-share">
+                                <span class="mr-2">Поделиться:</span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/4" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Старт фестиваля в Лиме
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="/News/6" class="nav-btn">
+                                    Завершение фестиваля в Лиме
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Похожие новости</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/6" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_6_1.jpg" alt="Завершение фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Завершение фестиваля в Лиме</h6>
+                                        <small class="text-muted">23 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/7" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_7_1.jpg" alt="Фестиваль в двух странах">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль в Перу и Никарагуа</h6>
+                                        <small class="text-muted">24 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/История" class="badge badge-light mr-2 mb-2">История</a>
+                            <a href="/News/Tag/Солидарность" class="badge badge-light mr-2 mb-2">Солидарность</a>
+                            <a href="/News/Tag/Ангола" class="badge badge-light mr-2 mb-2">Ангола</a>
+                            <a href="/News/Tag/Куба" class="badge badge-light mr-2 mb-2">Куба</a>
+                            <a href="/News/Tag/Образование" class="badge badge-light mr-2 mb-2">Образование</a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-news">
+                        <h3>Ссылки</h3>
+                        <div class="small">
+                            <p><a href="https://marquez-lib.ru/works/operatsiya-karlota.html" target="_blank">Статья Габриэля Гарсиа Маркеса</a></p>
+                            <p><a href="https://t.me/ggpiglazov" target="_blank">ГИПУ имени В. Г. Короленко</a></p>
+                            <p><a href="https://t.me/fmi_we" target="_blank">Фонд «Моя история»</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Управление видео
+        const video = document.getElementById('newsVideo');
+        
+        function playPause() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+        
+        function makeFullScreen() {
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.webkitRequestFullscreen) {
+                video.webkitRequestFullscreen();
+            } else if (video.msRequestFullscreen) {
+                video.msRequestFullscreen();
+            }
+        }
+        
+        // Обработка ошибок видео
+        video.addEventListener('error', function(e) {
+            console.error('Ошибка загрузки видео:', e);
+            const videoContainer = document.querySelector('.video-container');
+            videoContainer.innerHTML = `
+                <div style="background: #f8f9fa; height: 100%; display: flex; align-items: center; justify-content: center; color: #666;">
+                    <div class="text-center">
+                        <i class="fas fa-exclamation-triangle fa-2x mb-3"></i>
+                        <p>Видео временно недоступно</p>
+                        <button onclick="location.reload()" class="btn btn-sm main-red-bg text-white">
+                            Попробовать снова
+                        </button>
+                    </div>
+                </div>
+            `;
+        });
+        
+        // Показ загрузки
+        video.addEventListener('waiting', function() {
+            console.log('Видео загружается...');
+        });
+        
+        video.addEventListener('canplay', function() {
+            console.log('Видео готово к воспроизведению');
+        });
+    </script>
+</body>
+</html>

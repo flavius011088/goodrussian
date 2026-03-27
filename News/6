@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фестиваль «Язык русских сказок» завершился в лицее Санто Доминго в Лиме - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .news-content li {
+            margin-bottom: 8px;
+        }
+        .news-gallery {
+            margin: 30px 0;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .quote-block {
+            background: #f8f9fa;
+            border-left: 4px solid #d32f2f;
+            padding: 25px;
+            margin: 30px 0;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+        }
+        .speakers-list {
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Завершение фестиваля в Лиме</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Фестиваль «Язык русских сказок» завершился в лицее Санто Доминго в Лиме</h1>
+                            <div class="news-date">23 ноября 2025</div>
+                        </header>
+
+                        <div class="news-content">
+                            <p><strong>Сегодня в лицее Санто Доминго прошёл заключительный день фестиваля «Язык русских сказок», организованного Фондом «Моя История» при поддержке Минпросвещения России. День получился ярким, насыщенным и по-настоящему праздничным!</strong></p>
+
+                            <div class="news-gallery">
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_1.jpg" alt="Церемония закрытия фестиваля">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_2.jpg" alt="Выступление участников">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_3.jpg" alt="Творческие номера">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_4.jpg" alt="Награждение участников">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_5.jpg" alt="Участники фестиваля">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_6.jpg" alt="Финальное фото мероприятия">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2>Погружение в мир русских сказок</h2>
+
+                            <p>Перуанские школьники продолжили знакомство с русскими сказками и народными преданиями. Они обсуждали героев, их поступки, традиции и моральные уроки, заложенные в этих историях. Ребята проявили искренний интерес, а также знания, внимание и способность понимать особенности русской культуры.</p>
+
+                            <h2>Красочный концерт и культурный диалог</h2>
+
+                            <p>Особое впечатление произвёл красочный концерт. Ученики лицея выступали с чтением стихов и отрывков из русской классики на русском и испанском языках, а также представили музыкально-танцевальные номера, объединившее культуры России и Перу. Это стало настоящим диалогом двух стран через искусство.</p>
+
+                            <div class="news-gallery">
+                                <h3>Моменты с концерта</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_2.jpg" alt="Чтение стихов на русском языке">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_3.jpg" alt="Танцевальные номера">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2>Церемония закрытия и выступления</h2>
+
+                            <p>На церемонии закрытия выступили:</p>
+
+                            <div class="speakers-list">
+                                <ul>
+                                    <li><strong>Хорхе Сиеса де Леон Туеста</strong> — директор ассоциации «АЛАР»</li>
+                                    <li><strong>Евгения Смирнова</strong> — директор Русского Дома в Лиме</li>
+                                    <li><strong>Даниэль Руис де ла Крус</strong> — директор сети лицеев Санто Доминго</li>
+                                </ul>
+                            </div>
+
+                            <h3>Слова директора лицея</h3>
+
+                            <div class="quote-block">
+                                <p>"Такие фестивали открывают границы для восприятия бесконечного разнообразия, существующего в этом мире. Это особенно важно для молодёжи, ведь именно сейчас она начинает выбирать свой дальнейший путь.</p>
+                                
+                                <p>Мы стремимся показать, что ограничения существуют лишь в сознании, тогда как смелые и искренние мечты рождаются в богатом и открытом мире идей. Этот фестиваль стал для наших школьников отличной почвой для размышлений и вдохновил многих на изучение русского языка.</p>
+                                
+                                <p>Надеемся, что подобные события мы сможем проводить регулярно — совместно с нашими российскими друзьями — на благо учеников и их семей в Лиме и по всему Перу."</p>
+                                
+                                <footer class="blockquote-footer mt-3">Даниэль Руис де ла Крус, <cite>директор сети лицеев Санто Доминго</cite></footer>
+                            </div>
+
+                            <div class="news-gallery">
+                                <h3>Торжественные моменты закрытия</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_4.jpg" alt="Выступление директора лицея">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_1.jpg" alt="Церемония награждения">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2>Итоги и впечатления</h2>
+
+                            <p>Фестиваль закончился, но впечатления, знания и вдохновение останутся у участников надолго. Многие школьники выразили желание продолжить изучение русского языка и глубже познакомиться с культурой России.</p>
+
+                            <p>Организаторы отметили высокий уровень подготовки участников и их искренний интерес к русскому языку и культуре. Фестиваль стал важным шагом в укреплении культурных связей между Россией и Перу.</p>
+
+                            <div class="news-gallery">
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_5.jpg" alt="Счастливые участники фестиваля">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_6_6.jpg" alt="Общая фотография на память">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p><em>Мероприятие было организовано Фондом «Моя История» при поддержке Минпросвещения Российской Федерации.</em></p>
+
+                            <div class="social-share">
+                                <span class="mr-2">Поделиться:</span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/5" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Операция «Карлота»
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="/News/7" class="nav-btn">
+                                    Фестиваль в двух странах
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Похожие новости</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/7" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_7_1.jpg" alt="Фестиваль в двух странах">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль в Перу и Никарагуа</h6>
+                                        <small class="text-muted">24 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/4" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_4_1.jpg" alt="Старт фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Старт фестиваля в Лиме</h6>
+                                        <small class="text-muted">21 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/1" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_1_1.jpg" alt="Анонс фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль приедет в Перу</h6>
+                                        <small class="text-muted">17 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>О фестивале</h3>
+                        <p class="small">Фестиваль «Язык русских сказок» — это образовательно-культурный проект, направленный на популяризацию русского языка и культуры через народный фольклор и традиции.</p>
+                        
+                        <div class="mt-3">
+                            <h6>Организаторы:</h6>
+                            <ul class="small pl-3">
+                                <li>Фонд «Моя История»</li>
+                                <li>Минпросвещения РФ</li>
+                                <li>Лицей Santo Domingo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/Фестиваль" class="badge badge-light mr-2 mb-2">Фестиваль</a>
+                            <a href="/News/Tag/Перу" class="badge badge-light mr-2 mb-2">Перу</a>
+                            <a href="/News/Tag/Лима" class="badge badge-light mr-2 mb-2">Лима</a>
+                            <a href="/News/Tag/РусскийЯзык" class="badge badge-light mr-2 mb-2">Русский язык</a>
+                            <a href="/News/Tag/Сказки" class="badge badge-light mr-2 mb-2">Сказки</a>
+                            <a href="/News/Tag/Культура" class="badge badge-light mr-2 mb-2">Культура</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

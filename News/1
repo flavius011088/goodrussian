@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фестиваль «Язык русских сказок» приедет в Перу - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .news-content li {
+            margin-bottom: 8px;
+        }
+        .program-list {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .program-list h4 {
+            color: #d32f2f;
+            margin-bottom: 20px;
+        }
+        .news-image {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .news-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .image-caption {
+            color: #777;
+            font-style: italic;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #fff5f5, #fef7f7);
+            border-left: 4px solid #d32f2f;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+    <header>
+        <!-- Навигация как в основном файле -->
+    </header>
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Фестиваль в Перу</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Фестиваль «Язык русских сказок» приедет в Перу</h1>
+                            <div class="news-date">17 ноября 2025</div>
+                            
+                            <div class="news-image">
+                                <img src="/img/news/news_1_1.jpg" alt="Фестиваль русского языка и культуры в Перу">
+                                <div class="image-caption">Подготовка к фестивалю русского языка и культуры в Лиме</div>
+                            </div>
+                        </header>
+
+                        <div class="news-content">
+                            <div class="highlight-box">
+                                <p class="lead mb-0"><strong>С 18 по 20 ноября в Лиме пройдёт фестиваль русского языка и культуры, где школьники столицы познакомятся с русским фольклором, традициями и художественным наследием России.</strong></p>
+                            </div>
+
+                            <p>Участниками станут учащиеся местных школ, включая район Лас-Комас. В течение трёх дней они будут погружаться в мир русского языка и традиций благодаря интерактивным занятиям, проводимым опытными преподавателями из Центров открытого образования на русском языке в странах Латинской Америки.</p>
+
+                            <div class="program-list">
+                                <h4>Программа фестиваля включает:</h4>
+                                <ul>
+                                    <li>
+                                        <strong>Интенсивные уроки русского языка</strong> — где лексику и грамматику изучают через сюжеты и персонажей русских сказок;
+                                    </li>
+                                    <li>
+                                        <strong>Творческий мастер-класс по русской росписи «Гжель»</strong> — каждый участник создаст свой уникальный шедевр;
+                                    </li>
+                                    <li>
+                                        <strong>Интеллектуальную викторину</strong> на знание русских сказок и языка;
+                                    </li>
+                                    <li>
+                                        <strong>Кинопоказ</strong> культовой сказки «Морозко» с испанскими субтитрами;
+                                    </li>
+                                    <li>
+                                        <strong>Яркий концерт</strong>, объединяющий элементы перуанского и русского народного творчества.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <h2>Культурный диалог между народами</h2>
+
+                            <p>Фестиваль станет важной площадкой для культурного диалога между Россией и Перу, позволяя школьникам не только познакомиться с богатым наследием России, но и в увлекательной, игровой форме сделать первые шаги в изучении одного из самых распространённых языков мира.</p>
+
+                            <h3>Цели и задачи мероприятия</h3>
+
+                            <p>Основной целью фестиваля является популяризация русского языка и культуры среди молодёжи Перу. Организаторы стремятся показать, что изучение русского языка — это не просто образовательный процесс, а увлекательное путешествие в мир богатой культуры, литературы и традиций.</p>
+
+                            <p>Через знакомство с русскими сказками участники смогут:</p>
+                            <ul>
+                                <li>Понять основные культурные ценности русского народа</li>
+                                <li>Ознакомиться с традиционными образами и символами</li>
+                                <li>Узнать о моральных и этических принципах, отражённых в фольклоре</li>
+                                <li>Получить базовые знания русского языка в доступной форме</li>
+                            </ul>
+
+                            <h2>Организаторы и партнёры</h2>
+
+                            <p><em>Мероприятие организовано Фондом поддержки гуманитарных наук «Моя История» при поддержке Министерства просвещения Российской Федерации.</em></p>
+
+                            <p>Фестиваль проводится в рамках программы по продвижению русского языка и образования за рубежом. Сотрудничество с местными образовательными учреждениями Перу позволяет создать уникальную атмосферу культурного обмена и взаимопонимания.</p>
+
+                            <div class="highlight-box">
+                                <h4>📅 Даты проведения:</h4>
+                                <p class="mb-2">18-20 ноября 2025 года</p>
+                                
+                                <h4>📍 Место проведения:</h4>
+                                <p class="mb-2">Лима, Перу (школы столицы, включая район Лас-Комас)</p>
+                                
+                                <h4>👥 Участники:</h4>
+                                <p class="mb-0">Учащиеся местных школ, преподаватели русского языка, представители культурных организаций</p>
+                            </div>
+
+                            <h3>Перспективы развития</h3>
+
+                            <p>Проведение подобных фестивалей открывает новые возможности для укрепления культурных связей между Россией и странами Латинской Америки. Участники получают не только знания, но и мотивацию для дальнейшего изучения русского языка, что в перспективе может способствовать развитию образовательных обменов и международного сотрудничества.</p>
+
+                            <div class="social-share">
+                                <span class="mr-2">Поделиться новостью:</span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-facebook mr-1"></i> Facebook
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/2" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Фестиваль в Никарагуа
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <span class="text-muted">Следующая новость</span>
+                                <div>
+                                    <a href="/News/2" class="nav-btn">
+                                        В Никарагуа пройдёт фестиваль 
+                                        <i class="fas fa-arrow-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Ближайшие мероприятия</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/2" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_2_1.jpg" alt="Фестиваль в Никарагуа">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль в Никарагуа</h6>
+                                        <small class="text-muted">18-20 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/LiveCourses" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4 bg-light rounded d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-graduation-cap text-muted fa-2x"></i>
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Курсы русского языка</h6>
+                                        <small class="text-muted">Набор открыт</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Контактная информация</h3>
+                        <p class="small mb-2">По вопросам участия в фестивале:</p>
+                        <p class="small mb-1">
+                            <i class="fas fa-envelope mr-2 text-muted"></i>
+                            <a href="mailto:info@goodrussian.ru">info@goodrussian.ru</a>
+                        </p>
+                        <p class="small mb-0">
+                            <i class="fas fa-phone mr-2 text-muted"></i>
+                            <a href="tel:+79217850503">+7 (921) 785-05-03</a>
+                        </p>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/Фестиваль" class="badge badge-light mr-2 mb-2">Фестиваль</a>
+                            <a href="/News/Tag/Перу" class="badge badge-light mr-2 mb-2">Перу</a>
+                            <a href="/News/Tag/Лима" class="badge badge-light mr-2 mb-2">Лима</a>
+                            <a href="/News/Tag/РусскийЯзык" class="badge badge-light mr-2 mb-2">Русский язык</a>
+                            <a href="/News/Tag/Сказки" class="badge badge-light mr-2 mb-2">Сказки</a>
+                            <a href="/News/Tag/Гжель" class="badge badge-light mr-2 mb-2">Гжель</a>
+                            <a href="/News/Tag/Культура" class="badge badge-light mr-2 mb-2">Культура</a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-news">
+                        <h3>Архив новостей</h3>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="/News/Archive/2025/11" class="small">Ноябрь 2025</a></li>
+                            <li><a href="/News/Archive/2025/10" class="small">Октябрь 2025</a></li>
+                            <li><a href="/News/Archive/2025/09" class="small">Сентябрь 2025</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+    <footer class="footer text-muted">
+        <!-- Футер как в основном файле -->
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

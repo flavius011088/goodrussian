@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фестиваль «Язык русских сказок»: два государства, одна история - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .news-content li {
+            margin-bottom: 8px;
+        }
+        .news-gallery {
+            margin: 30px 0;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .news-video {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Фестиваль «Язык русских сказок»</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Фестиваль «Язык русских сказок»: два государства, одна история, сотни участников</h1>
+                            <div class="news-date">24 ноября 2025</div>
+                        </header>
+
+                        <div class="news-content">
+                            <p><strong>Впервые фестиваль русского фольклора и культуры прошёл одновременно в двух странах — Перу и Никарагуа, став по-настоящему международным культурным и творческим событием.</strong></p>
+
+                            <p>За три дня школьники из обеих стран продемонстрировали такой уровень вовлечённости и таланта, что даже организаторы были впечатлены:</p>
+
+                            <div class="news-gallery">
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_1.jpg" alt="Фестиваль в Перу">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_2.jpg" alt="Участники из Никарагуа">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_3.jpg" alt="Творческие работы">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_4.jpg" alt="Культурный обмен">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_5.jpg" alt="Мастер-классы">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_7_6.jpg" alt="Финальные выступления">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2>Ключевые достижения фестиваля</h2>
+
+                            <p><strong>Творческий потенциал</strong> проявился в театральных, музыкальных и танцевальных постановках, где русские сказки переплетались с национальными латиноамериканскими мотивами, создавая уникальные интерпретации.</p>
+
+                            <p><strong>Искренний интерес к русской культуре</strong> вышел за рамки стереотипов: участники стремились понять глубинные смыслы, ценности и символику русского фольклора.</p>
+
+                            <p><strong>Желание творить и узнавать новое</strong> стало главным двигателем фестиваля — ребята не просто выполняли задания, а полностью погружались в процесс.</p>
+
+                            <div class="news-video">
+                                <h3>Видеоотчёт с фестиваля</h3>
+                                <div class="video-container">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+                                </div>
+                                <p class="text-muted mt-2">Яркие моменты фестиваля в Перу и Никарагуа</p>
+                            </div>
+
+                            <h3>В Перу</h3>
+                            <p>Школьники не просто читали сказки — они переживали их, обсуждали характеры героев и нравственные дилеммы. На концертах звучала русская классика, а на сцене разворачивались спектакли, в которых гармонично сочетались русские и перуанские традиции. Артистизм и смелость участников поражали, а мастер-классы по росписи в стиле гжель превратились в настоящий взрыв фантазии: каждый узор становился маленьким произведением искусства.</p>
+
+                            <h3>В Никарагуа</h3>
+                            <p>Царила тёплая и вдохновляющая атмосфера. Здесь тоже с увлечением погружались в мир народных преданий, создавали гжельские композиции, сравнивали культурные традиции и с восторгом исследовали символы русского фольклора.</p>
+
+                            <h2>Перспективы развития</h2>
+                            <p>Сегодня в странах Латинской Америки растёт интерес к изучению русского языка, и фестиваль стал ярким подтверждением этого процесса. Многие учебные заведения проявляют интерес к развитию русскоязычных и культурных программ — ведь это открывает перед учащимися новые горизонты: возможность получить качественное образование, глубже понять многообразие мировой культуры и научиться её ценить.</p>
+
+                            <p>Фестиваль завершился, но его влияние только начинается. Творчество, знания, дружба и вдохновение, подаренные участникам в Перу и Никарагуа, останутся с ними надолго — и, возможно, станут определяющими в их будущем. Многие участники и соорганизаторы выразили желание проводить подобные фестивали регулярно.</p>
+
+                            <p><em>Мероприятие было организовано Фондом «Моя история» при поддержке Минпросвещения Российской Федерации.</em></p>
+
+                            <div class="social-share">
+                                <span class="mr-2">Поделиться:</span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/6" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Фестиваль завершился в Лиме
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="/News/5" class="nav-btn">
+                                    Операция «Карлота» 
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Похожие новости</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/6" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_6_1.jpg" alt="Завершение фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Завершение фестиваля в лицее Санто Доминго</h6>
+                                        <small class="text-muted">23 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/4" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_4_1.jpg" alt="Старт фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Старт фестиваля в Лиме</h6>
+                                        <small class="text-muted">21 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/3" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_3_1.jpg" alt="Мастер-класс">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Мастер-класс по гжели в Никарагуа</h6>
+                                        <small class="text-muted">21 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/Фестиваль" class="badge badge-light mr-2 mb-2">Фестиваль</a>
+                            <a href="/News/Tag/Перу" class="badge badge-light mr-2 mb-2">Перу</a>
+                            <a href="/News/Tag/Никарагуа" class="badge badge-light mr-2 mb-2">Никарагуа</a>
+                            <a href="/News/Tag/РусскийЯзык" class="badge badge-light mr-2 mb-2">Русский язык</a>
+                            <a href="/News/Tag/Культура" class="badge badge-light mr-2 mb-2">Культура</a>
+                            <a href="/News/Tag/Гжель" class="badge badge-light mr-2 mb-2">Гжель</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-list-page {
+            padding: 60px 0;
+        }
+        .news-list-item {
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            transition: all 0.3s ease;
+        }
+        .news-list-item:hover {
+            background: #f9f9f9;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 -15px;
+            border-radius: 8px;
+        }
+        .news-list-media {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .news-list-media.single img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .news-list-media.grid img {
+            height: 120px;
+            object-fit: cover;
+        }
+        .news-list-media.video .video-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(211, 47, 47, 0.9);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .news-meta {
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        .news-list-title {
+            color: #333;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        .news-list-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            color: #d32f2f;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .read-more:hover {
+            text-decoration: underline;
+        }
+        .sidebar-news {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .archive-list {
+            list-style: none;
+            padding: 0;
+        }
+        .archive-list li {
+            margin-bottom: 8px;
+        }
+        .archive-list a {
+            color: #555;
+            text-decoration: none;
+        }
+        .archive-list a:hover {
+            color: #d32f2f;
+        }
+        .page-header {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+    <header>
+        <!-- Навигация как в основном файле -->
+    </header>
+
+    <section class="news-list-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-header">
+                        <h1>Новости</h1>
+                        <p class="text-muted">Все последние события и мероприятия GoodRussian</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Новость 7 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media grid">
+                                    <div class="row no-gutters">
+                                        <div class="col-6">
+                                            <img src="/img/news/news_7_1.jpg" alt="Фестиваль в двух странах" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_7_2.jpg" alt="Участники фестиваля" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_7_3.jpg" alt="Творческие работы" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_7_4.jpg" alt="Культурный обмен" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="video-indicator">
+                                        <i class="fas fa-video"></i> Видео
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">24 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/7" class="text-dark">Фестиваль «Язык русских сказок»: два государства, одна история, сотни участников</a>
+                                </h2>
+                                <p class="news-list-excerpt">Впервые фестиваль русского фольклора и культуры прошёл одновременно в двух странах — Перу и Никарагуа, став по-настоящему международным культурным и творческим событием...</p>
+                                <a href="/News/7" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 6 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media grid">
+                                    <div class="row no-gutters">
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_1.jpg" alt="Закрытие фестиваля" class="img-fluid">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_2.jpg" alt="Выступления" class="img-fluid">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_3.jpg" alt="Концерт" class="img-fluid">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_4.jpg" alt="Награждение" class="img-fluid">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_5.jpg" alt="Участники" class="img-fluid">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="/img/news/news_6_6.jpg" alt="Финальное фото" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">23 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/6" class="text-dark">Фестиваль «Язык русских сказок» завершился в лицее Санто Доминго в Лиме</a>
+                                </h2>
+                                <p class="news-list-excerpt">Сегодня в лицее Санто Доминго прошёл заключительный день фестиваля «Язык русских сказок». День получился ярким, насыщенным и по-настоящему праздничным!</p>
+                                <a href="/News/6" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 5 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media video">
+                                    <img src="/img/news/news_5_1_thumb.jpg" alt="Операция Карлота" class="img-fluid">
+                                    <div class="video-indicator">
+                                        <i class="fas fa-play"></i> Видео
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">23 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/5" class="text-dark">Операция «Карлота»: история солидарности</a>
+                                </h2>
+                                <p class="news-list-excerpt">Операция «Карлота» была частью кубинской военной операции по освобождению Анголы и Намибии от колониальных сил ЮАР, которая продлилась до 1991 года...</p>
+                                <a href="/News/5" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 4 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media grid">
+                                    <div class="row no-gutters">
+                                        <div class="col-6">
+                                            <img src="/img/news/news_4_1.jpg" alt="Фестиваль в Лиме" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_4_2.jpg" alt="Участники" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_4_3.jpg" alt="Творческий процесс" class="img-fluid">
+                                        </div>
+                                        <div class="col-6">
+                                            <img src="/img/news/news_4_4.jpg" alt="Работы участников" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">21 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/4" class="text-dark">Старт фестиваля «Язык русских сказок» в Лиме</a>
+                                </h2>
+                                <p class="news-list-excerpt">Сегодня в Лиме, столице Перу, стартовал фестиваль «Язык русских сказок» для школьников лицея «Santo Domingo». Первый день оказался по-настоящему насыщенным...</p>
+                                <a href="/News/4" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 3 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media single">
+                                    <img src="/img/news/news_3_1.jpg" alt="Мастер-класс по гжели" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">21 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/3" class="text-dark">Мастер-класс по гжели на фестивале в Никарагуа</a>
+                                </h2>
+                                <p class="news-list-excerpt">Фестиваль русского фольклора и культуры «Язык русских сказок» в Республике Никарагуа в самом разгаре и каждый день дарит гостям новые впечатления и открытия!</p>
+                                <a href="/News/3" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 2 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media single">
+                                    <img src="/img/news/news_2_1.jpg" alt="Фестиваль в Никарагуа" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">17 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/2" class="text-dark">В Никарагуа пройдёт фестиваль русского языка и культуры «Язык русских сказок»</a>
+                                </h2>
+                                <p class="news-list-excerpt">Фестиваль пройдёт с 18 по 20 ноября в городе Хинотепе. Его цель — популяризация русского языка через народный фольклор...</p>
+                                <a href="/News/2" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Новость 1 -->
+                    <div class="news-list-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="news-list-media single">
+                                    <img src="/img/news/news_1_1.jpg" alt="Фестиваль в Перу" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="news-meta">17 ноября 2025</div>
+                                <h2 class="news-list-title">
+                                    <a href="/News/1" class="text-dark">Фестиваль «Язык русских сказок» приедет в Перу</a>
+                                </h2>
+                                <p class="news-list-excerpt">С 18 по 20 ноября в Лиме пройдёт фестиваль русского языка и культуры, где школьники столицы познакомятся с русским фольклором, традициями и художественным наследием России.</p>
+                                <a href="/News/1" class="read-more">Читать далее →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Архив новостей</h3>
+                        <ul class="archive-list">
+                            <li><a href="/News/Archive/2025/11">Ноябрь 2025 (7)</a></li>
+                            <li><a href="/News/Archive/2025/10">Октябрь 2025</a></li>
+                            <li><a href="/News/Archive/2025/09">Сентябрь 2025</a></li>
+                            <li><a href="/News/Archive/2025/08">Август 2025</a></li>
+                            <li><a href="/News/Archive/2025/07">Июль 2025</a></li>
+                            <li><a href="/News/Archive/2025/06">Июнь 2025</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Категории</h3>
+                        <ul class="archive-list">
+                            <li><a href="/News/Category/Festivals">Фестивали и мероприятия</a></li>
+                            <li><a href="/News/Category/Courses">Новые курсы</a></li>
+                            <li><a href="/News/Category/Culture">Культурные события</a></li>
+                            <li><a href="/News/Category/Partnerships">Партнёрства</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+    <footer class="footer text-muted">
+        <!-- Футер как в основном файле -->
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

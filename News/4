@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Старт фестиваля «Язык русских сказок» в Лиме - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-content ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .news-content li {
+            margin-bottom: 8px;
+        }
+        .news-gallery {
+            margin: 30px 0;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 4px solid #d32f2f;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .program-item {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .program-item h5 {
+            color: #d32f2f;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Старт фестиваля в Лиме</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Старт фестиваля «Язык русских сказок» в Лиме</h1>
+                            <div class="news-date">21 ноября 2025</div>
+                        </header>
+
+                        <div class="news-content">
+                            <p class="lead"><strong>Сегодня в Лиме, столице Перу, стартовал фестиваль «Язык русских сказок» для школьников лицея «Santo Domingo». Первый день оказался по-настоящему насыщенным и вдохновляющим, открыв для юных участников волшебный мир русской культуры через её древнейшие повествования.</strong></p>
+
+                            <div class="news-gallery">
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_1.jpg" alt="Открытие фестиваля в Лиме">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_2.jpg" alt="Участники фестиваля">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_3.jpg" alt="Творческий процесс">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_4.jpg" alt="Работы участников">
+                                    </div>
+                                </div>
+                                <p class="text-center text-muted">Первые моменты фестиваля русского языка и культуры в Лиме</p>
+                            </div>
+
+                            <h2>Погружение в мир русских сказок</h2>
+
+                            <p>На открытом уроке школьники погрузились в атмосферу народных сказок: знакомились с героями, символами и глубокими нравственными уроками, заложенными в этих историях. Дети с большим интересом слушали о приключениях Ивана-царевича, Василисы Прекрасной и других любимых персонажей, открывая для себя мудрость и красоту русской культуры.</p>
+
+                            <div class="highlight-box">
+                                <h4>🗣️ Цитата участника</h4>
+                                <p class="mb-0"><em>"Мне особенно понравилась сказка о Колобке - она весёлая, но в то же время учит быть осторожным и не доверять незнакомцам!"</em> - поделился впечатлениями Карлос, ученик 5 класса.</p>
+                            </div>
+
+                            <h2>Дискуссия о важности русского языка</h2>
+
+                            <p>На дискуссии «Зачем сегодня изучать русский язык?» учащиеся с искренним интересом делились своими мечтами — кто-то стремится побывать в России, кто-то — поступить в российский вуз, а кто-то — читать Пушкина, Толстого и Чехова в оригинале.</p>
+
+                            <p>Разговор получился тёплым и открытым — о языке как мосте между культурами, о слове как носителе не только информации, но и души народа. Преподаватели отметили высокую мотивацию учащихся и их осознанный подход к изучению русского языка.</p>
+
+                            <div class="program-item">
+                                <h5>🎯 Цели дискуссии:</h5>
+                                <ul>
+                                    <li>Показать практическую пользу изучения русского языка</li>
+                                    <li>Познакомить с возможностями образования в России</li>
+                                    <li>Вдохновить на глубокое изучение русской литературы</li>
+                                    <li>Развить межкультурное понимание</li>
+                                </ul>
+                            </div>
+
+                            <h2>Творческий мастер-класс по гжели</h2>
+
+                            <p>Завершился день необычным творческим мастер-классом по росписи в стиле Гжель, где голубые узоры, цветы и тонкие завитки оживали под руками детей. Каждый участник создал свою уникальную миниатюру, соединив в одном произведении художественное наследие России и собственную фантазию.</p>
+
+                            <div class="news-gallery">
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_5.jpg" alt="Мастер-класс по гжели">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_4_4.jpg" alt="Готовые работы участников">
+                                    </div>
+                                </div>
+                                <p class="text-center text-muted">Участники осваивают традиционную русскую роспись</p>
+                            </div>
+
+                            <h3>Что такое гжель?</h3>
+
+                            <p>Дети узнали, что гжель — это традиционный русский промысел керамики и фарфора с характерной синей росписью по белому фону. Этот стиль зародился в подмосковном регионе Гжель и стал одним из символов русского народного искусства.</p>
+
+                            <div class="program-item">
+                                <h5>🎨 Элементы гжели, которые изучали дети:</h5>
+                                <ul>
+                                    <li><strong>"Ситчик"</strong> - тонкие веточки и усики</li>
+                                    <li><strong>"Капельки"</strong> - точечные элементы</li>
+                                    <li><strong>"Травка"</strong> - изящные растительные узоры</li>
+                                    <li><strong>"Птицы и цветы"</strong> - основные сюжеты росписи</li>
+                                </ul>
+                            </div>
+
+                            <h2>Первые впечатления и ожидания</h2>
+
+                            <p>Первый день фестиваля подарил не только новые знания, но и яркие эмоции, глубокие впечатления и ощущение связи с другой культурой — и это лишь начало.</p>
+
+                            <div class="highlight-box">
+                                <h4>🌟 Итоги первого дня:</h4>
+                                <div class="row text-center">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="h4 text-primary mb-1">85+</div>
+                                        <small>участников</small>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="h4 text-success mb-1">4</div>
+                                        <small>мастер-класса</small>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="h4 text-danger mb-1">100%</div>
+                                        <small>положительных отзывов</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>А впереди — ещё больше открытий, которые помогут юным участникам по-настоящему почувствовать богатство русского языка. В программе следующих дней — интерактивные игры, театральные постановки по мотивам русских сказок и знакомство с русскими народными песнями и танцами.</p>
+
+                            <p><em>Мероприятие было организовано <a href="https://t.me/fmi_we" target="_blank">Фондом «Моя история»</a> при поддержке Минпросвещения Российской Федерации.</em></p>
+
+                            <div class="social-share">
+                                <span class="mr-2">Поделиться новостью:</span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-whatsapp mr-1"></i> WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/3" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Мастер-класс по гжели в Никарагуа
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="/News/5" class="nav-btn">
+                                    Операция «Карлота» 
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Программа фестиваля</h3>
+                        
+                        <div class="program-item">
+                            <h5>День 1</h5>
+                            <ul class="small pl-3 mb-0">
+                                <li>Открытие фестиваля</li>
+                                <li>Знакомство с русскими сказками</li>
+                                <li>Дискуссия о русском языке</li>
+                                <li>Мастер-класс по гжели</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="program-item">
+                            <h5>День 2</h5>
+                            <ul class="small pl-3 mb-0">
+                                <li>Интерактивные уроки русского</li>
+                                <li>Театральные постановки</li>
+                                <li>Русские народные игры</li>
+                                <li>Викторина по сказкам</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="program-item">
+                            <h5>День 3</h5>
+                            <ul class="small pl-3 mb-0">
+                                <li>Творческий конкурс</li>
+                                <li>Концертная программа</li>
+                                <li>Награждение участников</li>
+                                <li>Закрытие фестиваля</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Похожие новости</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/6" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_6_1.jpg" alt="Завершение фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Завершение фестиваля в Лиме</h6>
+                                        <small class="text-muted">23 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/1" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_1_1.jpg" alt="Анонс фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль приедет в Перу</h6>
+                                        <small class="text-muted">17 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/7" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_7_1.jpg" alt="Международный фестиваль">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль в двух странах</h6>
+                                        <small class="text-muted">24 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Организаторы</h3>
+                        <div class="small">
+                            <p><strong>Фонд «Моя история»</strong><br>
+                            Организация, занимающаяся популяризацией русского языка и культуры за рубежом.</p>
+                            
+                            <p><strong>Лицей «Santo Domingo»</strong><br>
+                            Одно из ведущих учебных заведений Лимы, активно развивающее международные образовательные программы.</p>
+                            
+                            <p><strong>Минпросвещения РФ</strong><br>
+                            Поддержка образовательных и культурных проектов за рубежом.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/Фестиваль" class="badge badge-light mr-2 mb-2">Фестиваль</a>
+                            <a href="/News/Tag/Перу" class="badge badge-light mr-2 mb-2">Перу</a>
+                            <a href="/News/Tag/Лима" class="badge badge-light mr-2 mb-2">Лима</a>
+                            <a href="/News/Tag/Гжель" class="badge badge-light mr-2 mb-2">Гжель</a>
+                            <a href="/News/Tag/Сказки" class="badge badge-light mr-2 mb-2">Сказки</a>
+                            <a href="/News/Tag/МастерКласс" class="badge badge-light mr-2 mb-2">Мастер-класс</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

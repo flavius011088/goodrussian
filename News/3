@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мастер-класс по гжели на фестивале в Никарагуа - Новости - GoodRussian</title>
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    <style>
+        .news-detail-page {
+            padding: 40px 0;
+        }
+        .news-breadcrumb {
+            background: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+        .news-header {
+            margin-bottom: 30px;
+        }
+        .news-date {
+            color: #777;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .news-content {
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        .news-content h2, .news-content h3 {
+            color: #d32f2f;
+            margin: 30px 0 20px 0;
+        }
+        .news-content p {
+            margin-bottom: 20px;
+        }
+        .news-hero-image {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .news-hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .news-gallery {
+            margin: 40px 0;
+        }
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-left: 4px solid #d32f2f;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .news-navigation {
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+            margin: 40px 0;
+        }
+        .nav-btn {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-btn:hover {
+            text-decoration: underline;
+        }
+        .similar-news {
+            margin-top: 50px;
+        }
+        .similar-news-item {
+            margin-bottom: 20px;
+        }
+        .similar-news-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .social-share {
+            margin: 30px 0;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 15px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            color: #555;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .share-btn:hover {
+            background: #f8f9fa;
+            color: #333;
+        }
+        .hashtags {
+            margin: 20px 0;
+        }
+        .hashtag {
+            display: inline-block;
+            background: #e9ecef;
+            color: #495057;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            text-decoration: none;
+        }
+        .hashtag:hover {
+            background: #d32f2f;
+            color: white;
+        }
+        .emoji-section {
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            border: 1px solid #e9ecef;
+        }
+        .emoji-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .emoji {
+            font-size: 1.5rem;
+            margin-right: 10px;
+            width: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка как в index.html -->
+
+    <section class="news-detail-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="news-breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+                            <li class="breadcrumb-item"><a href="/News">Новости</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Мастер-класс по гжели</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <article>
+                        <header class="news-header">
+                            <h1>Мастер-класс по гжели на фестивале в Никарагуа</h1>
+                            <div class="news-date">21 ноября 2025</div>
+                            
+                            <div class="hashtags">
+                                <a href="#" class="hashtag">#ФестивальРусскихСказок</a>
+                                <a href="#" class="hashtag">#РусскаяКультура</a>
+                                <a href="#" class="hashtag">#МастерКлассПоГжели</a>
+                                <a href="#" class="hashtag">#ТворчествоИМагия</a>
+                                <a href="#" class="hashtag">#ДизайнСамовара</a>
+                            </div>
+                        </header>
+
+                        <div class="news-content">
+                            <div class="emoji-section">
+                                <div class="emoji-row">
+                                    <div class="emoji">📚</div>
+                                    <div><strong>Фестиваль русского фольклора и культуры «Язык русских сказок»</strong> в Республике Никарагуа в самом разгаре и каждый день дарит гостям новые впечатления и открытия!</div>
+                                </div>
+                                <div class="emoji-row">
+                                    <div class="emoji">🎨</div>
+                                    <div>Сегодня на фестивале прошёл увлекательный <strong>мастер-класс по гжели</strong>!</div>
+                                </div>
+                            </div>
+
+                            <div class="news-hero-image">
+                                <img src="/img/news/news_3_1.jpg" alt="Мастер-класс по гжели в Никарагуа">
+                                <p class="text-muted mt-2">Участники мастер-класса по традиционной русской росписи</p>
+                            </div>
+
+                            <h2>Погружение в искусство гжели</h2>
+
+                            <div class="emoji-row">
+                                <div class="emoji">✍️</div>
+                                <div>Сначала все участники учились <strong>повторять традиционные узоры и элементы росписи</strong>, знакомились с техникой, цветами и символикой гжели.</div>
+                            </div>
+
+                            <p>Атмосфера была дружелюбной и творческой - каждый мог потренироваться и почувствовать себя настоящим художником.</p>
+
+                            <div class="highlight-box">
+                                <h3>🏆 Конкурс дизайна самовара</h3>
+                                <p>А потом настал самый захватывающий момент: <strong>все желающие приняли участие в конкурсе и придумали уникальный дизайн для самовара!</strong></p>
+                            </div>
+
+                            <h3>Творческие подходы участников</h3>
+            
+                            <div class="emoji-section">
+                                <div class="emoji-row">
+                                    <div class="emoji">🎭</div>
+                                    <div>Участники проявили невероятное воображение: <strong>кто-то создавал сказочные сцены</strong>, кто-то - цветочные мотивы, а кто-то - совершенно новые фантазийные узоры.</div>
+                                </div>
+                                <div class="emoji-row">
+                                    <div class="emoji">✨</div>
+                                    <div>Энергия, радость и вдохновение царили в зале!</div>
+                                </div>
+                            </div>
+
+                            <div class="news-gallery">
+                                <h3>Галерея творческих работ</h3>
+                                <div class="gallery-grid">
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_3_2.jpg" alt="Участники за работой">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_3_3.jpg" alt="Традиционные узоры гжели">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_3_4.jpg" alt="Процесс росписи">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="/img/news/news_3_5.jpg" alt="Готовые работы">
+                                    </div>
+                                </div>
+                                <p class="text-center text-muted">Участники осваивают технику традиционной русской росписи</p>
+                            </div>
+
+                            <h2>Итоги мастер-класса</h2>
+
+                            <div class="emoji-section">
+                                <div class="emoji-row">
+                                    <div class="emoji">📖</div>
+                                    <div>Все ушли с <strong>новыми знаниями</strong>, творческими идеями и яркими впечатлениями.</div>
+                                </div>
+                                <div class="emoji-row">
+                                    <div class="emoji">⏳</div>
+                                    <div>Многие уже с нетерпением ждут продолжения фестиваля!</div>
+                                </div>
+                            </div>
+
+                            <div class="highlight-box">
+                                <h4>🎯 Ценность мероприятия</h4>
+                                <p>Мастер-класс по гжели стал не просто уроком рисования, а настоящим погружением в русскую культуру. Через искусство традиционной росписи участники смогли почувствовать связь с русскими народными традициями и понять символику, которая веками передавалась из поколения в поколение.</p>
+                            </div>
+
+                            <h3>О фестивале «Язык русских сказок»</h3>
+                            <p>Фестиваль проходит в Никарагуа с 18 по 20 ноября в городе Хинотепе. Его цель — популяризация русского языка через народный фольклор, знакомство с богатой традицией русских сказок, былин и мифов.</p>
+
+                            <p>Организатором выступает Фонд «Моя История» при поддержке Министерства просвещения Российской Федерации.</p>
+
+                            <div class="social-share">
+                                <span class="mr-2"><strong>Поделиться новостью:</strong></span>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-vk mr-1"></i> ВКонтакте
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-telegram mr-1"></i> Telegram
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-twitter mr-1"></i> Twitter
+                                </a>
+                                <a href="#" class="share-btn">
+                                    <i class="fab fa-facebook mr-1"></i> Facebook
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="news-navigation">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="/News/2" class="nav-btn">
+                                    <i class="fas fa-arrow-left mr-2"></i> 
+                                    Фестиваль в Никарагуа
+                                </a>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="/News/4" class="nav-btn">
+                                    Старт фестиваля в Лиме 
+                                    <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="sidebar-news">
+                        <h3>Ближайшие мероприятия</h3>
+                        
+                        <div class="similar-news-item">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <h6 class="card-title">Фестиваль русской культуры</h6>
+                                    <p class="card-text small">Мастер-классы, лекции и концерты</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="badge badge-danger">Скоро</span>
+                                        <small class="text-muted">25-27 ноября</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <h6 class="card-title">Курс русской каллиграфии</h6>
+                                    <p class="card-text small">Освойте искусство красивого письма</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <span class="badge badge-primary">Набор открыт</span>
+                                        <small class="text-muted">С 1 декабря</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-news">
+                        <h3>Похожие новости</h3>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/2" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_2_1.jpg" alt="Фестиваль в Никарагуа">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Старт фестиваля в Никарагуа</h6>
+                                        <small class="text-muted">17 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/4" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_4_1.jpg" alt="Фестиваль в Перу">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Фестиваль в лицее Санто Доминго</h6>
+                                        <small class="text-muted">21 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="similar-news-item">
+                            <a href="/News/7" class="d-block text-dark">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <img src="/img/news/news_7_1.jpg" alt="Итоги фестиваля">
+                                    </div>
+                                    <div class="col-8">
+                                        <h6>Итоги фестиваля в двух странах</h6>
+                                        <small class="text-muted">24 ноября 2025</small>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar-news">
+                        <h3>Теги</h3>
+                        <div>
+                            <a href="/News/Tag/Гжель" class="badge badge-light mr-2 mb-2">Гжель</a>
+                            <a href="/News/Tag/МастерКласс" class="badge badge-light mr-2 mb-2">Мастер-класс</a>
+                            <a href="/News/Tag/Никарагуа" class="badge badge-light mr-2 mb-2">Никарагуа</a>
+                            <a href="/News/Tag/Фестиваль" class="badge badge-light mr-2 mb-2">Фестиваль</a>
+                            <a href="/News/Tag/Творчество" class="badge badge-light mr-2 mb-2">Творчество</a>
+                            <a href="/News/Tag/РусскаяРоспись" class="badge badge-light mr-2 mb-2">Русская роспись</a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-news">
+                        <h3>О гжели</h3>
+                        <p class="small">Гжель — традиционный русский народный промысел, вид русской народной росписи, также один из традиционных российских центров производства керамики.</p>
+                        <a href="/Culture/Gzhel" class="btn btn-outline-danger btn-sm">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер как в index.html -->
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
