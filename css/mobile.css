@@ -1,0 +1,770 @@
+﻿
+@media (max-width: 1199.98px) {
+
+    .navbar-brand {
+        /*padding-left: 20px;*/
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        padding-left: 0px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+    }
+
+    #intro-courses-more .intro-info h2, #intro-courses-more-self .intro-info h2 {
+        padding: 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .cart .total {
+        font-size: 28px;
+    }
+
+    .t1-bold {
+        font-size: 20px;
+    }
+
+    #banner-clear a {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    #banner-clear .banner-text {
+        font-size: 15px;
+        line-height: 37px;
+    }
+
+
+    #intro-courses-self {
+        background-size: auto 300px;
+    }
+
+    #intro-courses-more-self {
+        background-size: auto 260px;
+        min-height: 480px;
+    }
+
+    #cart-complete .intro-info h2, #cart-complete .intro-info h2 span,
+    #error-page .intro-info h2, #error-page .intro-info h2 span {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 30px 0;
+    }
+
+    #error-page {
+        background-size: auto 400px;
+        min-height: 500px;
+    }
+
+    #cart-complete {
+        background-size: auto 260px;
+        min-height: 480px;
+    }
+
+    #intro-courses {
+        min-height: 415px;
+        background-size: auto 230px;
+    }
+
+    .sidebar.horse img {
+        margin-left: -121px;
+    }
+
+    #about-us {
+        min-height: 515px;
+    }
+
+    #no-courses {
+        min-height: 650px;
+        background-size: auto 230px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sidebar {
+        position: relative;
+    }
+
+    .reg-bear {
+        width: inherit;
+    }
+
+    .login-panel .login-form {
+        padding-left: 20px;
+    }
+
+    .login-info {
+        top: 15%;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .intro-info h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    body {
+        margin-bottom: 80px;
+    }
+
+    .footer .copyright {
+        padding: 25px 0px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .intro-info h1 span {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 80px;
+    }
+
+    #intro {
+        min-height: 420px;
+        background-size: auto;
+        margin-top: 40px;
+    }
+
+    .intro-info p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #intro .btn {
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .padding-one {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+        h2 span {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0.5rem;
+    }
+
+    .separate_line {
+        margin: 30px 0;
+    }
+
+    .angel-text {
+        background-image: url('../img/angel16.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+        .angel-text h2 {
+            margin-bottom: 30px;
+        }
+
+    .padding-one-top {
+        padding-top: 30px;
+    }
+
+    .arrow {
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+    }
+
+    .course-item .preview, .course-item-cart .preview {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 16px;
+    }
+
+    .course-item-header h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .course-item .preview p, .course-item-cart .preview p {
+        font-size: 10px;
+        line-height: 32px;
+    }
+
+    .description {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .course-item .main-body .date, .course-item-cart .main-body .date {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    .course-item .main-body .name, .course-item-cart .main-body .name {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .course-item-cart .main-body .name {
+        margin-bottom: 15px;
+    }
+
+    #month-select option {
+        font-size: 16px;
+    }
+
+    .course-item-header {
+        margin-top: 25px;
+    }
+
+    .general-link {
+        font-size: 16px;
+    }
+
+    .course-item-details {
+        margin: 0;
+    }
+
+    .t1 {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    element {
+    }
+
+    .t2-light {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    element {
+    }
+
+    .t2-light {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .p-40 {
+        padding: 15px;
+    }
+
+    .course-item-details h2 {
+        padding-bottom: 15px;
+    }
+
+    .t1-20 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .t1-bold {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .t2-reg {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .course-item-details .t2-reg {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+    .lesson-plan .t2-reg {
+        font-size: 14px;
+    }
+
+    .t3-light, .t3-light p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .lesson-plan {
+        border-left: 1px solid #E1EBF4;
+    }
+
+    .teacher-photo {
+        margin-left: 0px;
+        width: 64px;
+        height: 96px;
+        min-width: 64px;
+        min-height: 96px;
+        max-width: 64px;
+        max-height: 96px;
+    }
+
+    .padding-two {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .reviews .MultiCarousel .item > div .title {
+        font-size: 16px;
+    }
+
+    .reviews .MultiCarousel .item > div {
+        margin: 10px 20px 0px 20px;
+    }
+
+    .padding-content {
+        padding: 30px 20px;
+    }
+
+    .feedback h2 {
+        padding-bottom: 40px;
+    }
+
+    .feedback h2 {
+        padding-bottom: 25px;
+    }
+
+    .quesions .contacts, .contacts a {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .quesions {
+        background-image: url('../img/bg.png');
+    }
+
+    .quesions .description {
+        padding-top: 15px;
+        line-height: 24px;
+    }
+
+    .form-group.top-m {
+        margin-top: 1rem;
+    }
+
+    .terms, .terms a {
+        padding-top: 1rem;
+    }
+
+    a.social {
+        padding: 2px;
+    }
+
+    #intro-courses .intro-info h1, #intro-courses-self .intro-info h1 {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .sidebar.left-menu {
+        background: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0 30px 0 30px;
+    }
+
+    .top-filter a {
+        text-decoration: none;
+        padding-bottom: 14px;
+        line-height: 40px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .sidebar.left-menu.left-menu-short {
+        min-height: 190px;
+    }
+
+    .separate_line.first {
+        margin-bottom: 10px;
+    }
+
+    .sidebar {
+        position: unset;
+    }
+
+    #intro-courses-more .intro-info h2, #intro-courses-more-self .intro-info h2 {
+        font-size: 24px;
+        line-height: 32px;
+        padding: 20px 0;
+    }
+
+        #intro-courses-more .intro-info h2 span, #intro-courses-more-self .intro-info h2 span {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+    #intro-courses-more {
+        min-height: 460px;
+        min-width: unset;
+        background-size: auto 370px;
+        background-position-x: 90%;
+    }
+
+    #intro-courses-self {
+        min-height: 450px;
+        min-width: unset;
+        background-size: auto 400px;
+        background-position-x: 90%;
+    }
+
+    #intro-courses-more-self {
+        min-height: 440px;
+        min-width: unset;
+        background-size: 450px;
+    }
+
+    #intro-courses {
+        min-height: 415px;
+        background-size: auto 250px;
+    }
+
+    #intro-bottom {
+        min-height: 330px;
+        background-size: auto 180px;
+    }
+
+    #about-us .intro-info h1 {
+        padding-top: 40px;
+    }
+
+    #no-courses {
+        min-height: 500px;
+        background-size: auto 180px;
+    }
+
+    .horse-text {
+        background-image: url('../img/horse16.png');
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+
+    .padding-two-bottom {
+        padding-bottom: 15px;
+    }
+
+    .padding-two-top {
+        padding-top: 20px;
+    }
+
+    .our-feature {
+        margin: 10px 15px;
+    }
+
+        .our-feature .t3-light {
+            line-height: 24px;
+        }
+
+    .padding-one-bottom {
+        padding-bottom: 20px;
+    }
+
+    .login-panel {
+        background: none;
+        box-shadow: none;
+        border-radius: unset;
+    }
+
+    .t2-bold {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .t3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .slider::before {
+        height: 19px;
+        width: 19px;
+        left: 3px;
+        bottom: 3px;
+    }
+
+    .switch {
+        width: 50px;
+        height: 25px;
+    }
+
+    h2.subscribtions, h2.subscribtions span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .t2-light.subscribtions, .t3-light.subscribtions, .t2-bold.subscribtions {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    #intro-subscriptions .intro-info p {
+        font-size: 16px;
+    }
+
+    .our-subscription .t1-bold {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .our-subscription .t3-light, .our-subscription s.t3-light p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .our-subscription .t2-reg {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .our-subscription .t3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #intro-subscriptions {
+        background-image: url('../img/sfinks16.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+
+    .avatar.round {
+        width: 96px;
+        height: 96px;
+    }
+
+    .main-info .terms, .main-info .terms a {
+        padding-top: 0.5rem;
+    }
+
+    h2.personal-info, h2.personal-info span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .form-control, select.form-control {
+        height: 36px;
+    }
+
+    .separate-line-solid {
+        margin: 0 -15px 25px -15px;
+    }
+
+    /*.form-group.country .arrow {*/
+    .form-group .arrow {
+        margin-top: 0px;
+        margin-left: -25px;
+    }
+
+    .fasie {
+        height: 75px;
+    }
+
+    .fond {
+        height: 60px;
+    }
+
+    .minpros {
+        height: 75px;
+    }
+
+    .login-panel .login-form {
+        padding: 0px;
+    }
+
+    .login-panel .login-form-container {
+        background-image: url('../img/bear_login16.png');
+        background-repeat: no-repeat;
+        min-height: 300px;
+        background-position: right bottom;
+    }
+
+    .login-panel .reg-form-container {
+        background-image: url('../img/bear-reg16.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        padding-bottom: 40px;
+        min-height: 300px;
+    }
+
+    .login-panel .login-form h2, .login-panel .login-form h2 span {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    .login-panel .button-container {
+        padding-top: 0px;
+    }
+
+        .login-panel .button-container a, .login-panel label {
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+    .login-info-container, .reg-info-container {
+        border-radius: 0px;
+    }
+
+    .login-panel .btn {
+        font-size: 14px;
+    }
+
+    .login-container {
+        padding-bottom: 0;
+    }
+
+    .login-panel .login-form p.terms {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .sidebar.cart {
+        height: auto;
+    }
+
+        .sidebar.cart .right-menu {
+            box-shadow: none;
+            background: transparent;
+            min-height: 0;
+            padding: 40px 0 10px 0;
+        }
+
+            .sidebar.cart .right-menu .btn {
+                padding: 5px 15px;
+            }
+
+    .cart .pay {
+        padding: 0px;
+        width: 45px;
+    }
+
+    .cart .total, .cart .total-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .course-item-cart .special-price, .cart .accept-pay {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #intro-courses-more .intro-info h2 span, #intro-courses-more-self .intro-info h2 span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .schedule .h3 {
+        font-size: 12px;
+    }
+
+    .schedule .h2 {
+        font-size: 24px;
+    }
+
+    .schedule p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*.pagination.bottom .page-link .left-arrow {
+        margin-left: -20px;
+    }
+
+    .pagination.bottom .page-link .right-arrow {
+        margin-left: -5px;
+    }*/
+    .page-link .left-arrow {
+        margin-left: -3px;
+    }
+
+    .page-link .right-arrow {
+        margin-left: -5px;
+    }
+
+    .chapter-page {
+        background-image: url('../img/bear-platform-16.png');
+        background-repeat: no-repeat;
+        background-position: right top;
+        min-height: 300px;
+    }
+
+    .pagination.bottom .page-item:first-child, .pagination.bottom .page-item:last-child {
+        width: 20%;
+    }
+
+    .page-link .right-arrow, .page-link .left-arrow {
+        margin-top: 4px;
+    }
+
+    .horse-text h2, .horse-text h2 span {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .breadcrumbs .right-left-arrow {
+        margin-top: -4px;
+    }
+
+    .lesson-video {
+        border-radius: unset;
+    }
+
+    .chapter h3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .file-icon {
+        margin-right: 5px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .file-container {
+        padding: 10px;
+    }
+
+    .chapter p {
+        margin-bottom: 10px;
+    }
+
+    #cart-complete .intro-info h2, #cart-complete .intro-info h2 span,
+    #error-page .intro-info h2, #error-page .intro-info h2 span {
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    #cart-complete {
+        min-height: 520px;
+        min-width: unset;
+        background-size: 500px;
+    }
+
+    #error-page {
+        min-height: 420px;
+        min-width: unset;
+        background-size: 370px;
+    }
+}
