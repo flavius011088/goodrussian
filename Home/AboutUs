@@ -4,16 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="yandex-verification" content="8ad6f4c2e99beda0" />
-    <title>Домашняя страница</title>
-    <meta name="description">
+    <title>О нас</title>
+    <meta name="description"
+          content="GoodRussian - первая в мире онлайн-школа для изучения русского языка">
     <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
     <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
     <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
     
-
-
 
     <style>
         .nav-link {
@@ -72,9 +71,9 @@
 
 
 <div title="Request culture provider: AcceptLanguageHeaderRequestCultureProvider">
-    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2F">
+    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2FHome%2FAboutUs">
             <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
-    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EEdmykHV7JCkgIU1yfRwZipJ_QVYT1f1m1qX8FUuPgXQqaHN5ByRp8FeZ2vxLNaosVkvSw-k2qzP_aTpLFEGfIXj14zregEF_5v2kbnvAi4mAnIIMoCvWxFj4M6yAL2G2Rzi-4cpZqa3XOJ_OsaUcE" /></form>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EEdmykHV7JCkgIU1yfRwZjunJrZemeLWyyRTpA3OpXRFw8SwZun8bk2_vEZhgqWmWGVeehyMKIGdGLUZAu5_48NlXkCulOLByG4pRn0LmUYopw-uQSEpBrTcY-BDtGjYzxp-bXxq9Z3u27OuEnfQj4" /></form>
 </div>
     </li>
     <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
@@ -109,7 +108,7 @@
                             <a class="nav-link main-blue" href="/SelfStudyCourses">самообучение</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link main-blue" href="/Home/AboutUs">о нас</a>
+                            <a class="nav-link main-red" href="/Home/AboutUs">о нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link main-blue" href="/Home/Contacts">контакты</a>
@@ -139,9 +138,9 @@
 
 
 <div title="Request culture provider: AcceptLanguageHeaderRequestCultureProvider">
-    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2F">
+    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2FHome%2FAboutUs">
             <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
-    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EEdmykHV7JCkgIU1yfRwZipJ_QVYT1f1m1qX8FUuPgXQqaHN5ByRp8FeZ2vxLNaosVkvSw-k2qzP_aTpLFEGfIXj14zregEF_5v2kbnvAi4mAnIIMoCvWxFj4M6yAL2G2Rzi-4cpZqa3XOJ_OsaUcE" /></form>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8EEdmykHV7JCkgIU1yfRwZjunJrZemeLWyyRTpA3OpXRFw8SwZun8bk2_vEZhgqWmWGVeehyMKIGdGLUZAu5_48NlXkCulOLByG4pRn0LmUYopw-uQSEpBrTcY-BDtGjYzxp-bXxq9Z3u27OuEnfQj4" /></form>
 </div>
     </li>
     <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
@@ -196,302 +195,143 @@
     </header>
 
     
-
-
-<section id="banner-clear" class="clearfix d-none">
-    <div class="container">
-        <div class="intro-info">
-            <div class="row d-none d-md-block">
-                <div class="col-12">
-                    <img src="/img/banners/terra.png" style="width:100%" />
-                </div>
-                <div class="col-12 row">
-                    <div class="col-3">
-                        <a href="/doc/GT_instr.pdf" target="_blank" class="btn main-red-bg">ИНСТРУКЦИЯ</a>
-                    </div>
-                    <div class="col-3">
-                        <a href="https://www.youtube.com/watch?v=CRIDS5Ar4vo&feature=youtu.be" target="_blank" class="btn main-red-bg">YOUTUBE</a>
-                    </div>
-                    <div class="col-6">
-                        <span class="banner-text">Техподдержка</span>
-                        <img class="banner-tg" src="/img/tg104.png" />
-                        <span class="banner-text"><a href="tel:+79500292562">+79500292562</a></span>
-                    </div>
-                </div>
+<div class="bg-gray">
+    <section id="about-us" class="clearfix">
+        <div class="container">
+            <div class="intro-info">
+                <h1>
+                    <span class="main-red">GoodRussian</span> - первая в мире <br />онлайн-школа для изучения <br />русского языка
+                </h1>
             </div>
         </div>
-    </div>
-</section>
-<section class="col-12 p-3  d-none">
-    <div class="container">
-        <div class="intro-info">
-            <div class="row">
-                <div class="col-12">
-                    <img src="/img/banners/mterra.png" style="width:100%" />
-                </div>
-                <div class="col-12 row">
-                    <div class="col-12 banner-small">
-                        <span class="banner-text">Техподдержка</span>
-                        <img class="banner-tg" src="/img/tg104.png" />
-                        <span class="banner-text"><a href="tel:+79500292562">+79500292562</a></span>
-                    </div>
-
-                    <div class="col-5">
-                        <a href="/doc/GT_instr.pdf" target="_blank" class="btn main-red-bg">ИНСТРУКЦИЯ</a>
-                    </div>
-                    <div class="offset-2 col-5">
-                        <a href="https://www.youtube.com/watch?v=CRIDS5Ar4vo&feature=youtu.be" target="_blank" class="btn main-red-bg">YOUTUBE</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="intro" class="clearfix ">
-    <div class="container">
-        <div class="intro-info">
-            <h1>
-                Лучший способ <br>выучить <span class="main-red">русский язык</span>
-            </h1>
-            <div class="row d-none d-md-block">
-                <div class="col-12">
-                    <a class="btn main-red-bg" href="/LiveCourses">
-                        Начать обучение
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-    <div class="col-12 p-3 d-md-none">
-        <a class="btn main-red-bg w-100" href="/LiveCourses">Начать обучение</a>
-    </div>
-
-<section class="padding-one angel-text">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="separate_line first"></div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 ">
-                        <h2>
-                            Выучить русский язык - <span class="main-red">просто</span>
-                        </h2>
-                    </div>
-                    <div class="col-md-7 offset-1">
-                        <p>
-                            Занятия проходят онлайн. Вы можете учиться с из любой точки мира. Наши преподаватели с высокой квалификацией покажут вам всю красоту русской культуры.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="separate_line"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>
-                            Захватывающие уроки: <br/><span class="main-red">онлайн уроки из настоящей школы</span>
-                        </h2>
-                    </div>
-                    <div class="col-md-7 offset-1">
-                        <p>
-                            В GoodRussian вы получите качественные знания и личное наставничество. Сможете учиться из дома или кафе в удобное для вас время. Выбирайте любой курс – мы ответим на все ваши вопросы и будем помогать на протяжении всего обучения.
-                        </p>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="separate_line"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>
-                            Учитесь <span class="main-red">всю жизнь</span>
-                        </h2>
-                    </div>
-                    <div class="col-md-7 offset-1">
-                        <p>
-                            Мы хотим, чтобы наши слушатели добились успеха в изучении русского. Поэтому мы предоставляем необходимые методические материалы: тексты, иллюстрирующие пройденный материал, интересные видео и задания для самостоятельной проверки своих знаний. Так же создан чат с преподавателем, в который мы добавляем всех студентов. Наслаждайтесь процессом обучения и наблюдайте за своим прогрессом.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="separate_line"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>Учитесь <span class="main-red">в группе</span> или <span class="main-red">индивидуально</span></h2>
-                    </div>
-                    <div class="col-md-7 offset-1">
-                        <p>
-                            Мы рады предложить вам разные сценарии обучения: Вы можете учиться в группе, если любите быть в команде единомышленников, или индивидуально, если хотите, чтобы все внимание было вашим!
-                        </p>
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 ">
-                        <h2 class="mt-5 font-weight-light">
-                            Хотите большего? Пройдите 
-                            <span class="main-red">тест ТРКИ</span>
-                            и получите сертификат по окончании любого выбранного курса
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="d-none d-md-block col-md-3 text-right">
-                <img src="/img/angel.png" />
-            </div>
-        </div>
-    </div>
-</section>
-<section class="numbers padding-two">
-    <div class="container">
-        <div class="row">
-            <div class="col-6 col-md-3 text-center">
-                <h2>900+</h2>
-                <p>
-                    студентов используют платформу каждый день
-                </p>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <h2>12</h2>
-                <p>
-                    различных уровней сложности обучения
-                </p>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <h2>5 783</h2>
-                <p>
-                    часов лекций и уроков
-                </p>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <h2>98%</h2>
-                <p>
-                    студентов довольны своей учебой
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="courses padding-one-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>
-                    Ближайшие курсы
-                    <select id="month-select" class="main-red">
-                                <option value="3" selected>&#x41C;&#x430;&#x440;&#x442;</option>
-                                <option value="4">&#x410;&#x43F;&#x440;&#x435;&#x43B;&#x44C;</option>
-                                <option value="5">&#x41C;&#x430;&#x439;</option>
-                                <option value="6">&#x418;&#x44E;&#x43D;&#x44C;</option>
-                                <option value="7">&#x418;&#x44E;&#x43B;&#x44C;</option>
-                                <option value="8">&#x410;&#x432;&#x433;&#x443;&#x441;&#x442;</option>
-                                <option value="9">&#x421;&#x435;&#x43D;&#x442;&#x44F;&#x431;&#x440;&#x44C;</option>
-                                <option value="10">&#x41E;&#x43A;&#x442;&#x44F;&#x431;&#x440;&#x44C;</option>
-                                <option value="11">&#x41D;&#x43E;&#x44F;&#x431;&#x440;&#x44C;</option>
-                                <option value="12">&#x414;&#x435;&#x43A;&#x430;&#x431;&#x440;&#x44C;</option>
-                                <option value="1">&#x42F;&#x43D;&#x432;&#x430;&#x440;&#x44C;</option>
-                                <option value="2">&#x424;&#x435;&#x432;&#x440;&#x430;&#x43B;&#x44C;</option>
-                    </select>
-                    <span class="arrow"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span>
-                </h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-9 col-xs-12">
-                <div id="spinner" style="display:none; text-align:center; font-size:30px;"><i class="fas fa-spinner fa-spin main-red"></i></div>
-                <div id="panel">
-                    
-<div id="accordion" class="padding-two pt-0">
-
+    </section>
 </div>
-                </div>
 
-                <div class="row float-right">
-                    <div class="col-md-12">
-                        <a class="general-link" href="/LiveCourses">
-                            Больше курсов
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 d-none d-lg-block text-right sidebar bear">
-                <img src="/img/bear.png" />
+<section class="padding-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 horse-text">
+                <p class="pb-2">
+                    В 2022 году в рамках реализации государственной программы «Развитие образования» в целях обеспечения научно-методического, методического и кадрового обеспечения обучения русскому языку при поддержке Министерства просвещения РФ стартовал проект «GoodRussian.Ru: Говорим и показываем» при организационно-техническом содействии ООО «ГУДРАШН».
+                </p><p class="pb-2">
+                    Эксперты нашей онлайн-школы специально для проекта разработали общеобразовательные программы, которые направлены на подготовку студентов к сдаче государственного тестирования по русскому языку как иностранному: от элементарного до продвинутого уровня.
+                </p><p class="pb-2">
+                    Онлайн-курсы – это образование нового формата. Дистанционные образовательные технологии позволяют слушателям с любого уголка мира осваивать программы проекта. У нас учатся люди из Республики Узбекистан, Монголии, Китайской Народной Республики и Соединенных Штатов Америки.
+                </p><p class="pb-2">
+                    В ходе реализации программы «Развитие образования» мы проводили курсы на безвозмездной основе. Каждый желающий мог обогатить свои знания о русском языке и культуре России.
+                </p><p class="pb-2">
+                    
+                </p><p class="pb-2">
+                    Перечень разработанных дополнительных образовательных программ:
+                </p><p class="pb-2">
+                    1. «Практический онлайн-курс русского языка элементарного уровня владения», длительность 16 часов.
+                </p><p class="pb-2">
+                    2. «Практический онлайн-курс русского языка базового уровня владения», длительность 16 часов.
+                </p><p class="pb-2">
+                    3. «Практический онлайн-курс русского языка для подготовки к сдаче тестирования на владение первым сертификационным уровнем», длительность 24 часа.
+                </p><p class="pb-2">
+                    4. «Практический онлайн-курс русского языка для подготовки к сдаче тестирования на владение вторым сертификационным уровнем», длительность 24 часа.
+                </p><p class="pb-2">
+                    5.  «Практический онлайн-курс русского языка для подготовки к сдаче тестирования на владение третьим сертификационным уровнем», длительность 36 часов.
+                </p><p class="pb-2">
+                    
+                </p>
             </div>
         </div>
     </div>
 </section>
-<section class="reviews padding-two">
+
+<section class="padding-one">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <h2>Наши студенты <span class="main-red">о нас:</span></h2>
+            <div class="d-none d-md-block col-md-5 sidebar horse">
+                <img src="/img/horse.png" style="max-width:420px;" />
+            </div>
+            <div class="col-12 col-md-7 horse-text">
+
+                <h2 class="pb-4">Немного о наших <span class="main-red">преподавателях</span></h2>
+                <p class="pb-2">
+                    Вы можете заниматься с человеком, который говорит на вашем языке, или с носителем русского, который поделится не только лингвистическими знаниями, но и расскажет про историю, культуру, традиции. Наши преподаватели откроют для вас всю красоту России. Испытайте лучшее из нашей страны с профессиональными и преданными преподавателями.
+                </p><p class="pb-2">
+                    Если вы не уверены, что знаете русский язык достаточно хорошо, рекомендуем выбрать преподавателя, который говорит на вашем языке.
+                </p><p class="pb-2">
+                    Наши преподаватели владеют информацией не только о языке, но и русской культуре и жизни в стране в целом. Вы можете спросить преподавателя о том, что вам действительно интересно.
+                </p><p class="pb-2">
+                    Благодаря хорошей работе преподавателей, 96% наших студентов успешно сдают ТРКИ. Присоединяйтесь  сейчас и подготовьтесь к экзамену вместе с GoodRussian!
+                </p>
             </div>
         </div>
+    </div>
+</section>
+<section class="our-team">
+    <div class="container">
         <div class="row">
-            <div class="MultiCarousel" data-items="1,2,2,3" data-slide="1" id="MultiCarousel" data-interval="1000">
+            <div class="MultiCarousel" data-items="1,3,3,4" data-slide="1" id="MultiCarousel" data-interval="1000">
                 <div class="MultiCarousel-inner">
                     <div class="item">
-                        <div class="pad15">
-                            <img class="avatar" src="/img/reviews/Alessia.png" />
-                            <span class="title">Алессия</span>
-                            <p class="review_text">Я учу русский язык, и сейчас я бы хотела сдать экзамен по уровню В2. В подготовке к этому экзамену мне помогают два учителя русского языка, Наталья Сергеевна и Лидия. Это отличные преподаватели, чуткие, внимательные и профессиональные! Мне очень нравится с ними заниматься, всё очень понятно и доступно. Я рада нашему прекрасному сотрудничеству с ними!</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <img class="avatar" src="/img/reviews/DiZingCheng.png" />
-                            <span class="title">Ди Цинчэнь</span>
-                            <p class="review_text">
-                                这个网上学习很好，丰富了我们的俄语知识，老师教导很细心，很负责任，我下次还会选择<br />
-                                Это очень хорошее онлайн-обучение, которое помогло нам улучшить наши знания русского языка, учитель очень внимательный и ответственный, я выберу его в следующий раз.
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/molchanova.png" />
+                            <p class="font-weight-bold mb-2"> Молчанова Наталья</p>
+                            <p class="t3-light">
+                                Кандидат филологических наук.<br />Наталья Сергеевна Молчанова является начальником отделения дополнительных образовательных программ для иностранных граждан института непрерывного образования, ответственным лицом за организационно-техническое сопровождение проведения комплексного экзамена для иностранных граждан, а также тестирования иностранных граждан и лиц без гражданства по русскому языку как иностранному. <br />С 2014 года является руководителем программ предвузовской подготовки для иностранных граждан
                             </p>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="pad15">
-                            <img class="avatar" src="/img/reviews/KungDelung.png" />
-                            <span class="title">Кун Дэлун</span>
-                            <p class="review_text">
-                                我觉得上网课非常好真的很方便而且很有效率.<br />
-                                Я проходил курсы по русскому языку, мне понравилось, всё было хорошо, удобно и эффективно, но изучать русский язык было очень сложно.
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/kalyznaya.png" />
+                            <p class="font-weight-bold mb-2">Калюжная Татьяна</p>
+                            <p class="t3-light">
+                                Бакалавр лингвистики.<br />Магистр педагогики.<br />Сертифицированный тестировщик ТРКИ
                             </p>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="pad15">
-                            <img class="avatar" src="/img/reviews/LiDangChang.png" />
-                            <span class="title">Ли Дяньчэн</span>
-                            <p class="review_text">
-                                我认为这个非常好，我认为很有效果，我也提高了更多。<br />
-                                Мне понравились курсы, я буду дальше изучать русский язык, изучать русский язык было чуть-чуть сложно.
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/djakova.png" />
+                            <p class="font-weight-bold mb-2">Дьякова Наталья</p>
+                            <p class="t3-light">
+                                Преподаватель русского языка и литературы высшей категории.<br />Учебно-методический специалист Центра тестирования РГПУ им. Герцена.<br />Эксперт по созданию тестов для ТРКИ.<br />Проводит обучение и в группах, и индивидуально
                             </p>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="pad15">
-                            <img class="avatar" src="/img/reviews/unknownreview.jpg" />
-                            <span class="title">Хэ Гуаньжу</span>
-                            <p class="review_text">
-                                你的网课很有帮助，学到了高效率的学习方法也听到了有趣的俄语课堂<br />
-                                Ваши онлайн-курсы помогли мне изучить русский язык, у вас хорошие методики и интересное содержание уроков.
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/efimova.png" />
+                            <p class="font-weight-bold mb-2">Ефимова Александра</p>
+                            <p class="t3-light">
+                                Доцент кафедры филологии, коммуникации и русского языка как иностранного Псковского государственного университета.<br />Большой опыт преподавания русского языка как иностранного на разных уровнях.<br />Автор книги “Учим русский язык вместе. Рабочая тетрадь для школьников”
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/golovina.png" />
+                            <p class="font-weight-bold mb-2">Головина Любовь</p>
+                            <p class="t3-light">
+                                Кандидат филологических наук.<br />Заведующий кафедрой теории и принципов дошкольного образования Псковского государственного университета.<br />Обладает солидной базой знаний в области преподавания русского языка как иностранного на разных уровнях.<br />Сертифицированный тестировщик русского языка как иностранного
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/zotova.png" />
+                            <p class="font-weight-bold mb-2">Золотова Олеся</p>
+                            <p class="t3-light">
+                                Кандидат филологических наук.<br />8 лет педагогического стажа.<br />Преподаватель русского языка как иностранного в Военной академии войск ПВО имени Васильевского (Смоленск) и Псковском государственном университете.<br /> Большой опыт преподавания русского языка как иностранного на разных уровнях
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15 text-center">
+                            <img class="avatar mb-3" src="/img/about/grushko.jpg" />
+                            <p class="font-weight-bold mb-2">Грушко Ксения</p>
+                            <p class="t3-light">
+                                Преподаватель русского языка как иностранного и методики преподавания РКИ.
+Методист Центра тестирования РГПУ им. А.И. Герцена.
+Сертифицированный тестор.
+Эксперт по созданию тестов для ТРКИ и онлайн-курсов.
+Проводит обучение в группах и индивидуально.
                             </p>
                         </div>
                     </div>
@@ -500,55 +340,82 @@
                 <button class="btn btn-primary rightLst"><i class="fa fa-angle-right"></i></button>
             </div>
         </div>
+
     </div>
 </section>
-<section class="padding-one-bottom">
+<section class="padding-two">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-7 ">
-                <h2>
-                    Онлайн-школа создана при поддержке с <span class="main-red">Фондом содействия инновационным проектам</span>
-                </h2>
+            <div class="col-12 text-center">
+                <h2 class="padding-two-bottom"><span class="main-red">Узнайте больше о нас</span></h2>
             </div>
-            <div class="col-12 col-md-5 text-center">
-                <img class="fasie" src="/img/logo_fasie.png" />
-                <img class="fond" src="/img/logo_fond.png" />
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Просто и интересно</p>
+                    <p class="t3-light main-white mb-0">Мы первая онлайн-школа русского языка с увлекательными уроками от высококлассных преподавателей.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon1.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Учитесь самостоятельно или с преподавателем</p>
+                    <p class="t3-light main-white mb-0">При обучении на любом курсе, мы предоставляем дополнительный материал для более глубокого изучения.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon2.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Узнайте больше</p>
+                    <p class="t3-light main-white mb-0">Вы можете взять дополнительные занятия с преподавателем в любое время.</p><br />
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon3.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Проверьте свой уровень</p>
+                    <p class="t3-light main-white mb-0">Вы можете подтвердить свой уровень владения русским языком. Для этого сдайте экзамен ТРКИ. Доступен на любом уровне.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon4.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Мы всегда на связи</p>
+                    <p class="t3-light main-white mb-0">Мы создали онлайн-чат с преподавателем для вас и ваших одноклассников на время обучения</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="our-feature text-center">
+                    <img class="mb-2 mt-3" src="/img/icon5.png" />
+                    <p class="t2-reg font-weight-bold main-white mb-3">Больше о России</p>
+                    <p class="t3-light main-white mb-0">Узнай много нового из нашего блога: от традиций старого Нового года до Масленицы</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+<section class="clearfix padding-one-bottom">
+    <div id="intro-bottom">
+        <div class="container">
 
-<section class="padding-one-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-7 ">
-                <h2>
-                    Общеобразовательные программы, направленные на подготовку к государственному тестированию по русскому языку как иностранному разработаны при поддержке <span class="main-red">Министерства просвещения РФ</span>
-                </h2>
+            <div class="intro-info text-center">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2">
+                        <h2>
+                            <span class="main-red">Присоединяйтесь к нам и начните свое путешествие в Российскую культуру</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 padding-two">
+                        <a class="btn main-red-bg" href="/LiveCourses">Начать обучение</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-5 text-center">
-                <img class="minpros" src="/img/minpros.png" />
-            </div>
+
         </div>
     </div>
 </section>
-
-
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 quesions padding-content text-center text-md-left">
-                <h2 class="main-white">
-                    пожалуйста, свяжитесь с нами
-                </h2>
-                <p class="contacts"><a href="tel:+7(921)3966963">+7 (921) 785 05 03</a> / <span><a href="mailto: info@goodrussian.ru"> info@goodrussian.ru</a></span></p>
-                <p>администратор курсов (Ксения Баранова)</p>
-                <p class="description">Мы отвечаем с 10:00 до 19:00 по будням</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 
 
@@ -600,9 +467,9 @@
     <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
     
+
 <script type="text/javascript">
             $(document).ready(function () {
-                //$('#month-select').select2();
                 var itemsMainDiv = ('.MultiCarousel');
                 var itemsDiv = ('.MultiCarousel-inner');
                 var itemWidth = "";
@@ -706,31 +573,7 @@
                 }
 
 
-                $('#month-select').change(function () {
-                    updateFilters()
-                })
-
             });
-            function updateFilters() {
-                $('#spinner').show()
-                $('#panel').slideUp(500)
-
-                var monthIndex = $("#month-select").val()
-
-                $.ajax({
-                    url: '/home/filter',
-                    type: 'POST',
-                    data: { monthIndex: monthIndex },
-                    success: function (result) {
-                        $('#panel').slideDown(500)
-                        $("#panel").html(result);
-                    },
-                    complete: function () {
-                        $('#spinner').hide()
-                    }
-                });
-            }
-
     // see this new options for Bootstrap 4.3.1
     // https://www.codeply.com/go/zjZsn1ly29
 </script>

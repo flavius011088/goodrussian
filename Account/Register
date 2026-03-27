@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="yandex-verification" content="8ad6f4c2e99beda0" />
+    <title>Зарегистрироваться</title>
+    <meta name="description"
+          content="Введите необходимые данные о себе и начинай заниматься вместе с нами">
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=0N0--Eh6zzrMNfAwAtmqervdlsy_xu9SNT8vHUi1q-o" />
+    <link href="/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="/css/mobile.css?v=_bAnY7DJ0aICRNKsaPXPm_T8ewi7yHiv2z3ASuQIlKU" rel="stylesheet" />
+    
+
+    <style>
+        .nav-link {
+            text-transform: uppercase;
+        }
+
+        input.input-validation-error,
+        textarea.input-validation-error,
+        select.input-validation-error {
+            background: #FEF1EC;
+            border: 1px solid #CD0A0A;
+        }
+    </style>
+
+
+    
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+            })
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(66395902, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/66395902" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+    
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white  box-shadow">
+            <div class="container">
+                <div>
+                    <button class="navbar-toggler main-menu-icon" type="button" data-toggle="collapse" data-target=".main-menu" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img src="/img/logo.png" />
+                    </a>
+                </div>
+                <div class="d-lg-none">
+                    
+<ul class="navbar-nav" style="flex-direction: row;">
+    <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4">
+    
+
+
+<div title="Request culture provider: CookieRequestCultureProvider">
+    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2FAccount%2FRegister">
+            <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8FYnruq3ultEv-AhvXMOQzaUQ7sRNx48ycAyor3r1s4C378oMVtovzFmX7O8IT5tAbpfgtI9f055fVSceSwc1t50I8N3YkkzqvozuZvDeZXCEKb4AHRtCpfXxGrAtw9VZ0NJV_mzQrMnL-BMhWR-8mg" /></form>
+</div>
+    </li>
+    <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
+        <select class="currency-select form-control custom-select" style="cursor:pointer;">
+        <option selected="selected" value="RUB">&#x20BD;</option>
+<option value="UZS">S&#x2BB;</option>
+<option value="USD">$</option>
+<option value="EURO">&#x20AC;</option>
+<option value="YUAN">&#xA5;</option>
+</select>
+    </li>
+    <li class="nav-item pr-2 btn-case-nav pr-lg-4 text-center">
+        <a class="nav-link btn-case" href="/Profile/Cart">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn main-blue-bg btn-login d-none d-lg-block" href="/Account/Login">вход/регистрация</a>
+        <a class="nav-link d-block d-lg-none" href="/Account/Login">
+            <img src="/img/icon-user.png" />
+        </a>
+    </li>
+</ul>
+
+                </div>
+                <div class="navbar-collapse main-menu collapse d-lg-inline-flex flex-lg-row-reverse">
+
+                    <ul class="navbar-nav flex-grow-1 mt-4 mt-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link main-blue" href="/LiveCourses">курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/SelfStudyCourses">самообучение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/Home/AboutUs">о нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/Home/Contacts">контакты</a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-blue" href="/Profile/EntranceTesting">экзамен</a>
+                            </li>
+                    </ul>
+                    <div class="d-lg-none text-center mt-4 mb-3">
+                        <a class="social" href="https://vk.com/goodrussian.school">
+                            <img src="/img/vk32.png" />
+                        </a>
+                        <a class="social" href="https://twitter.com/GoodRussiansch1">
+                            <img src="/img/twitter32.png" />
+                        </a>
+                        <a class="social" href="https://www.youtube.com/channel/UCd3PAwDx7rp5oMpusrw7vlg/">
+                            <img src="/img/youtube32.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-block">
+                    
+<ul class="navbar-nav" style="flex-direction: row;">
+    <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4">
+    
+
+
+<div title="Request culture provider: CookieRequestCultureProvider">
+    <form id="selectLanguage" method="post" class="form-horizontal" role="form" action="/Home/SetLanguage?returnUrl=~%2FAccount%2FRegister">
+            <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
+    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8FYnruq3ultEv-AhvXMOQzaUQ7sRNx48ycAyor3r1s4C378oMVtovzFmX7O8IT5tAbpfgtI9f055fVSceSwc1t50I8N3YkkzqvozuZvDeZXCEKb4AHRtCpfXxGrAtw9VZ0NJV_mzQrMnL-BMhWR-8mg" /></form>
+</div>
+    </li>
+    <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
+        <select class="currency-select form-control custom-select" style="cursor:pointer;">
+        <option selected="selected" value="RUB">&#x20BD;</option>
+<option value="UZS">S&#x2BB;</option>
+<option value="USD">$</option>
+<option value="EURO">&#x20AC;</option>
+<option value="YUAN">&#xA5;</option>
+</select>
+    </li>
+    <li class="nav-item pr-2 btn-case-nav pr-lg-4 text-center">
+        <a class="nav-link btn-case" href="/Profile/Cart">
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn main-blue-bg btn-login d-none d-lg-block" href="/Account/Login">вход/регистрация</a>
+        <a class="nav-link d-block d-lg-none" href="/Account/Login">
+            <img src="/img/icon-user.png" />
+        </a>
+    </li>
+</ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="navbar-collapse user-menu collapse d-lg-none navbar navbar-light bg-white  box-shadow">
+
+            <ul class="navbar-nav flex-grow-1 mt-4 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/Profile/EntranceTesting">экзамен</a>
+                    </li>
+                <li class="nav-item ">
+                    <a class="nav-link main-blue" href="/Profile/Lessons">Мои курсы</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link main-blue" href="/Profile/Tests">Мои тесты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-blue" href="/Profile/Subscriptions">Подписки</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link main-blue" href="/Profile/Settings">Настройки</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Account/Logout">Выйти</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    
+
+<section class="padding-one login-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+
+                <div class="login-panel">
+                    <div class="row">
+                        <div class="col-md-4 order-md-first bg-blue  reg-info-container text-center">
+                            <div class="login-info  pt-5 pb-5 p-md-0">
+                                <h2 class="main-white">С <span>возвращением!</span></h2>
+                                <p>
+                                    Чтобы продолжить учиться с нами, пожалуйста, заполните необходимые поля
+                                </p>
+                                <a type="submit" class="btn white-border main-blue-gr-bg w-100" href="/Account/Login">Войти</a>
+                            </div>
+                        </div>
+                        <div class="col-md-8 order-first reg-form-container">
+                            <div class=" login-form">
+                                <h2>
+                                    Создать <a><span class="main-red">личный кабинет</span></a>
+                                </h2>
+                                <form method="POST">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary setup-content" id="step-1">
+                                        <div class="panel-body">
+                                            <p class="mb-3"><b>Введите информацию о себе </b>(шаг 1 из 2)</p>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Ваше имя" type="text" data-val="true" data-val-required="The Your Name field is required." id="FirstName" name="FirstName" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Фамилия" type="text" data-val="true" data-val-required="The Surname field is required." id="LastName" name="LastName" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <select required class="form-control custom-select place-holder" data-val="true" data-val-required="The Language Level field is required." id="LanguageLevel" name="LanguageLevel">
+                                                        <option value="" disabled selected>Уровень владения языком</option>
+                                                        <option value="A1">A1</option>
+                                                        <option value="A2">A2</option>
+                                                        <option value="B1">B1</option>
+                                                        <option value="B2">B2</option>
+                                                        <option value="C1">C1</option>
+                                                        <option value="C2">C2</option>
+                                                    </select>
+                                                    <span class="arrow"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Дата рождения" type="date" data-val="true" data-val-required="The Date of Birth field is required." id="DateOfBirth" name="DateOfBirth" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <select required data-val="true" data-val-required="country is required" class="form-control custom-select place-holder" placeholder="Ваша страна" id="Country" name="Country">
+                                                        <option value="Afghanistan">Афганистан</option>
+                                                        <option value="&#xC5;land Islands">Аландские острова</option>
+                                                        <option value="Albania">Албания</option>
+                                                        <option value="Algeria">Алжир</option>
+                                                        <option value="American Samoa">Американское Самоа</option>
+                                                        <option value="Andorra">Андорра</option>
+                                                        <option value="Angola">Ангола</option>
+                                                        <option value="Anguilla">Ангилья</option>
+                                                        <option value="Antarctica">Антарктида</option>
+                                                        <option value="Antigua and Barbuda">Антигуа и Барбуда</option>
+                                                        <option value="Argentina">Аргентина</option>
+                                                        <option value="Armenia">Армения</option>
+                                                        <option value="Aruba">Аруба</option>
+                                                        <option value="Australia">Австралия</option>
+                                                        <option value="Austria">Австрия</option>
+                                                        <option value="Azerbaijan">Азербайджан</option>
+                                                        <option value="Bahamas">Багамы</option>
+                                                        <option value="Bahrain">Бахрейн</option>
+                                                        <option value="Bangladesh">Бангладеш</option>
+                                                        <option value="Barbados">Барбадос</option>
+                                                        <option value="Belarus">Беларусь</option>
+                                                        <option value="Belgium">Бельгия</option>
+                                                        <option value="Belize">Белиз</option>
+                                                        <option value="Benin">Бенин</option>
+                                                        <option value="Bermuda">Бермуды</option>
+                                                        <option value="Bhutan">Бутан</option>
+                                                        <option value="Bolivia">Боливия</option>
+                                                        <option value="Bosnia and Herzegovina">Босния и Герцеговина</option>
+                                                        <option value="Botswana">Ботсвана</option>
+                                                        <option value="Bouvet Island">Остров Буве</option>
+                                                        <option value="Brazil">Бразилия</option>
+                                                        <option value="British Indian Ocean Territory">Британская территория в Индийском</option>
+                                                        <option value="Brunei Darussalam">Бруней-Даруссалам</option>
+                                                        <option value="Bulgaria">Болгария</option>
+                                                        <option value="Burkina Faso">Буркина-Фасо</option>
+                                                        <option value="Burundi">Бурунди</option>
+                                                        <option value="Cambodia">Камбоджа</option>
+                                                        <option value="Cameroon">Камерун</option>
+                                                        <option value="Canada">Канада</option>
+                                                        <option value="Cape Verde">Кабо-Верде</option>
+                                                        <option value="Cayman Islands">Острова Кайман</option>
+                                                        <option value="Central African Republic">Центрально-Африканская Республика</option>
+                                                        <option value="Chad">Чад</option>
+                                                        <option value="Chile">Чили</option>
+                                                        <option value="China">Китай</option>
+                                                        <option value="Christmas Island">Остров Рождества</option>
+                                                        <option value="Cocos (Keeling) Islands">Кокосовые (Килинг) острова</option>
+                                                        <option value="Colombia">Колумбия</option>
+                                                        <option value="Comoros">Коморы</option>
+                                                        <option value="Congo">Конго</option>
+                                                        <option value="Congo, The Democratic Republic of The">Конго, Демократическая Республика</option>
+                                                        <option value="Cook Islands">Острова Кука</option>
+                                                        <option value="Costa Rica">Коста-Рика</option>
+                                                        <option value="Cote D&#x27;ivoire">Кот д'Ивуар</option>
+                                                        <option value="Croatia">Хорватия</option>
+                                                        <option value="Cuba">Куба</option>
+                                                        <option value="Cyprus">Кипр</option>
+                                                        <option value="Czech Republic">Чешская Республика</option>
+                                                        <option value="Denmark">Дания</option>
+                                                        <option value="Djibouti">Джибути</option>
+                                                        <option value="Dominica">Доминика</option>
+                                                        <option value="Dominican Republic">Доминиканская Республика</option>
+                                                        <option value="Ecuador">Эквадор</option>
+                                                        <option value="Egypt">Египет</option>
+                                                        <option value="El Salvador">Эль-Сальвадор</option>
+                                                        <option value="Equatorial Guinea">Экваториальная Гвинея</option>
+                                                        <option value="Eritrea">Эритрея</option>
+                                                        <option value="Estonia">Эстония</option>
+                                                        <option value="Ethiopia">Эфиопия</option>
+                                                        <option value="Falkland Islands (Malvinas)">Фолклендские острова (Мальвинские)</option>
+                                                        <option value="Faroe Islands">Фарерские острова</option>
+                                                        <option value="Fiji">Фиджи</option>
+                                                        <option value="Finland">Финляндия</option>
+                                                        <option value="France">Франция</option>
+                                                        <option value="French Guiana">Французская Гвиана</option>
+                                                        <option value="French Polynesia">Французская Полинезия</option>
+                                                        <option value="French Southern Territories">Французские Южные территории</option>
+                                                        <option value="Gabon">Габон</option>
+                                                        <option value="Gambia">Гамбия</option>
+                                                        <option value="Georgia">Грузия</option>
+                                                        <option value="Germany">Германия</option>
+                                                        <option value="Ghana">Гана</option>
+                                                        <option value="Gibraltar">Гибралтар</option>
+                                                        <option value="Greece">Греция</option>
+                                                        <option value="Greenland">Гренландия</option>
+                                                        <option value="Grenada">Гренада</option>
+                                                        <option value="Guadeloupe">Гваделупа</option>
+                                                        <option value="Guam">Гуам</option>
+                                                        <option value="Guatemala">Гватемала</option>
+                                                        <option value="Guernsey">Гернси</option>
+                                                        <option value="Guinea">Гвинея</option>
+                                                        <option value="Guinea-bissau">Гвинея-Бисау</option>
+                                                        <option value="Guyana">Гайана</option>
+                                                        <option value="Haiti">Гаити</option>
+                                                        <option value="Heard Island and Mcdonald Islands">Остров Херд и острова Макдональд</option>
+                                                        <option value="Holy See (Vatican City State)">Папский Престол (Государство — город Ватикан)</option>
+                                                        <option value="Honduras">Гондурас</option>
+                                                        <option value="Hong Kong">Гонконг</option>
+                                                        <option value="Hungary">Венгрия</option>
+                                                        <option value="Iceland">Исландия</option>
+                                                        <option value="India">Индия</option>
+                                                        <option value="Indonesia">Индонезия</option>
+                                                        <option value="Iran, Islamic Republic of">Иран, Исламская Республика</option>
+                                                        <option value="Iraq">Ирак</option>
+                                                        <option value="Ireland">Ирландия</option>
+                                                        <option value="Isle of Man">Остров Мэн</option>
+                                                        <option value="Israel">Израиль</option>
+                                                        <option value="Italy">Италия</option>
+                                                        <option value="Jamaica">Ямайка</option>
+                                                        <option value="Japan">Япония</option>
+                                                        <option value="Jersey">Джерси</option>
+                                                        <option value="Jordan">Иордания</option>
+                                                        <option value="Kazakhstan">Казахстан</option>
+                                                        <option value="Kenya">Кения</option>
+                                                        <option value="Kiribati">Кирибати</option>
+                                                        <option value="Korea, Democratic People&#x27;s Republic of">Корея, Народно-Демократическая Республика</option>
+                                                        <option value="Korea, Republic of">Корея, Республика</option>
+                                                        <option value="Kuwait">Кувейт</option>
+                                                        <option value="Kyrgyzstan">Киргизия</option>
+                                                        <option value="Lao People&#x27;s Democratic Republic">Лаос</option>
+                                                        <option value="Latvia">Латвия</option>
+                                                        <option value="Lebanon">Ливан</option>
+                                                        <option value="Lesotho">Лесото</option>
+                                                        <option value="Liberia">Либерия</option>
+                                                        <option value="Libyan Arab Jamahiriya">Ливийская Арабская Джамахирия</option>
+                                                        <option value="Liechtenstein">Лихтенштейн</option>
+                                                        <option value="Lithuania">Литва</option>
+                                                        <option value="Luxembourg">Люксембург</option>
+                                                        <option value="Macao">Макао</option>
+                                                        <option value="Macedonia, The Former Yugoslav Republic of">Республика Македония</option>
+                                                        <option value="Madagascar">Мадагаскар</option>
+                                                        <option value="Malawi">Малави</option>
+                                                        <option value="Malaysia">Малайзия</option>
+                                                        <option value="Maldives">Мальдивы</option>
+                                                        <option value="Mali">Мали</option>
+                                                        <option value="Malta">Мальта</option>
+                                                        <option value="Marshall Islands">Маршалловы острова</option>
+                                                        <option value="Martinique">Мартиника</option>
+                                                        <option value="Mauritania">Мавритания</option>
+                                                        <option value="Mauritius">Маврикий</option>
+                                                        <option value="Mayotte">Майотта</option>
+                                                        <option value="Mexico">Мексика</option>
+                                                        <option value="Micronesia, Federated States of">Микронезия, Федеративные Штаты</option>
+                                                        <option value="Moldova, Republic of">Молдова, Республика</option>
+                                                        <option value="Monaco">Монако</option>
+                                                        <option value="Mongolia">Монголия</option>
+                                                        <option value="Montenegro">Черногория</option>
+                                                        <option value="Montserrat">Монтсеррат</option>
+                                                        <option value="Morocco">Марокко</option>
+                                                        <option value="Mozambique">Мозамбик</option>
+                                                        <option value="Myanmar">Мьянма</option>
+                                                        <option value="Namibia">Намибия</option>
+                                                        <option value="Nauru">Науру</option>
+                                                        <option value="Nepal">Непал</option>
+                                                        <option value="Netherlands">Нидерланды</option>
+                                                        <option value="Netherlands Antilles">Нидерландские Антильские острова</option>
+                                                        <option value="New Caledonia">Новая Каледония</option>
+                                                        <option value="New Zealand">Новая Зеландия</option>
+                                                        <option value="Nicaragua">Никарагуа</option>
+                                                        <option value="Niger">Нигер</option>
+                                                        <option value="Nigeria">Нигерия</option>
+                                                        <option value="Niue">Ниуэ</option>
+                                                        <option value="Norfolk Island">Остров Норфолк</option>
+                                                        <option value="Northern Mariana Islands">Северные Марианские острова</option>
+                                                        <option value="Norway">Норвегия</option>
+                                                        <option value="Oman">Оман</option>
+                                                        <option value="Pakistan">Пакистан</option>
+                                                        <option value="Palau">Палау</option>
+                                                        <option value="Palestinian Territory, Occupied">Палестинская территория, оккупированная</option>
+                                                        <option value="Panama">Панама</option>
+                                                        <option value="Papua New Guinea">Папуа-Новая Гвинея</option>
+                                                        <option value="Paraguay">Парагвай</option>
+                                                        <option value="Peru">Перу</option>
+                                                        <option value="Philippines">Филиппины</option>
+                                                        <option value="Pitcairn">Питкерн</option>
+                                                        <option value="Poland">Польша</option>
+                                                        <option value="Portugal">Португалия</option>
+                                                        <option value="Puerto Rico">Пуэрто-Рико</option>
+                                                        <option value="Qatar">Катар</option>
+                                                        <option value="Reunion">Реюньон</option>
+                                                        <option value="Romania">Румыния</option>
+                                                        <option value="Russian Federation">Россия</option>
+                                                        <option value="Rwanda">Руанда</option>
+                                                        <option value="Saint Helena">Святая Елена</option>
+                                                        <option value="Saint Kitts and Nevis">Сент-Китс и Невис</option>
+                                                        <option value="Saint Lucia">Сент-Люсия</option>
+                                                        <option value="Saint Pierre and Miquelon">Сент-Пьер и Микелон</option>
+                                                        <option value="Saint Vincent and The Grenadines">Сент-Винсент и Гренадины</option>
+                                                        <option value="Samoa">Самоа</option>
+                                                        <option value="San Marino">Сан-Марино</option>
+                                                        <option value="Sao Tome and Principe">Сан-Томе и Принсипи</option>
+                                                        <option value="Saudi Arabia">Саудовская Аравия</option>
+                                                        <option value="Senegal">Сенегал</option>
+                                                        <option value="Serbia">Сербия</option>
+                                                        <option value="Seychelles">Сейшелы</option>
+                                                        <option value="Sierra Leone">Сьерра-Леоне</option>
+                                                        <option value="Singapore">Сингапур</option>
+                                                        <option value="Slovakia">Словакия</option>
+                                                        <option value="Slovenia">Словения</option>
+                                                        <option value="Solomon Islands">Соломоновы острова</option>
+                                                        <option value="Somalia">Сомали</option>
+                                                        <option value="South Africa">Южная Африка</option>
+                                                        <option value="South Georgia and The South Sandwich Islands">Южная Джорджия и Южные Сандвичевы острова</option>
+                                                        <option value="Spain">Испания</option>
+                                                        <option value="Sri Lanka">Шри-Ланка</option>
+                                                        <option value="Sudan">Судан</option>
+                                                        <option value="Suriname">Суринам</option>
+                                                        <option value="Svalbard and Jan Mayen">Шпицберген и Ян Майен</option>
+                                                        <option value="Swaziland">Королевство Эсватини</option>
+                                                        <option value="Sweden">Швеция</option>
+                                                        <option value="Switzerland">Швейцария</option>
+                                                        <option value="Syrian Arab Republic">Сирийская Арабская Республика</option>
+                                                        <option value="Taiwan, Province of China">Тайвань (Китай)</option>
+                                                        <option value="Tajikistan">Таджикистан</option>
+                                                        <option value="Tanzania, United Republic of">Танзания, Объединенная Республика</option>
+                                                        <option value="Thailand">Таиланд</option>
+                                                        <option value="Timor-leste">Тимор-Лесте</option>
+                                                        <option value="Togo">Того</option>
+                                                        <option value="Tokelau">Токелау</option>
+                                                        <option value="Tonga">Тонга</option>
+                                                        <option value="Trinidad and Tobago">Тринидад и Тобаго</option>
+                                                        <option value="Tunisia">Тунис</option>
+                                                        <option value="Turkey">Турция</option>
+                                                        <option value="Turkmenistan">Туркмения</option>
+                                                        <option value="Turks and Caicos Islands">Острова Теркс и Кайкос</option>
+                                                        <option value="Tuvalu">Тувалу</option>
+                                                        <option value="Uganda">Уганда</option>
+                                                        <option value="Ukraine">Украина</option>
+                                                        <option value="United Arab Emirates">Объединенные Арабские Эмираты</option>
+                                                        <option value="United Kingdom">Соединенное Королевство</option>
+                                                        <option value="United States">Соединенные Штаты</option>
+                                                        <option value="United States Minor Outlying Islands">Малые Тихоокеанские отдаленные острова Соединенных Штатов</option>
+                                                        <option value="Uruguay">Уругвай</option>
+                                                        <option value="Uzbekistan">Узбекистан</option>
+                                                        <option value="Vanuatu">Вануату</option>
+                                                        <option value="Venezuela">Венесуэла Боливарианская Республика</option>
+                                                        <option value="Viet Nam">Вьетнам</option>
+                                                        <option value="Virgin Islands, British">Виргинские острова, Британские</option>
+                                                        <option value="Virgin Islands, U.S.">Виргинские острова, США</option>
+                                                        <option value="Wallis and Futuna">Уоллис и Футуна</option>
+                                                        <option value="Western Sahara">Западная Сахара</option>
+                                                        <option value="Yemen">Йемен</option>
+                                                        <option value="Zambia">Замбия</option>
+                                                        <option value="Zimbabwe">Зимбабве</option>
+                                                    </select>
+                                                    <span class="arrow"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg></span>
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Ваша профессия" type="text" data-val="true" data-val-required="The Profession field is required." id="Profession" name="Profession" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group mb-0">
+                                                <div class="col-7 col-md-5  button-container">
+                                                    <button type="button" data-target="step-2" class="w-100 btn main-blue-gr-bg nextBtn">Далее</button>
+                                                </div>
+                                                <div class="col-7 d-none d-md-block text-right">
+                                                    <img class="reg-bear" src="/img/bear1.png" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-primary setup-content" id="step-2">
+                                        <div class="panel-body">
+                                            <p class="mb-3">
+                                                <b>Введите информацию о себе </b> (шаг 2 из 2)
+                                            </p>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Почта" type="email" data-val="true" data-val-required="The E-mail field is required." id="Email" name="Email" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Пароль" type="password" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group">
+                                                <div class="col-7">
+                                                    <input required class="form-control" placeholder="Подтверждение пароля" type="password" data-val="true" data-val-equalto="&#x27;Confirm Password&#x27; and &#x27;Password&#x27; do not match." data-val-equalto-other="*.Password" data-val-required="The Confirm Password field is required." id="PasswordConfirm" name="PasswordConfirm" />
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-group mb-0">
+                                                <div class="col-7 col-md-5 button-container">
+                                                    <button type="submit" class="btn main-blue-gr-bg nextBtn w-100">Зарегистрироваться</button>
+                                                    <p class="terms">*Нажимая эту кнопку вы соглашаетесь с <a href="/doc/termsofuse.pdf">правилами пользования</a> и <a href="/doc/privacypolicy.pdf">политикой безопасности</a></p>
+                                                </div>
+                                                <div class="col-7 d-none d-md-block text-right">
+                                                    <img class="reg-bear" src="/img/bear1.png" />
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8FYnruq3ultEv-AhvXMOQzaUQ7sRNx48ycAyor3r1s4C378oMVtovzFmX7O8IT5tAbpfgtI9f055fVSceSwc1t50I8N3YkkzqvozuZvDeZXCEKb4AHRtCpfXxGrAtw9VZ0NJV_mzQrMnL-BMhWR-8mg" /></form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <footer class="footer text-muted">
+        <div class="container">
+            <div class="row d-lg-none">
+                <div class="col-12 copyright text-center">
+                    <p class="m-0">&copy; 2019-2025 ООО «Гудрашн»</p>
+                </div>
+            </div>
+            <div class="row d-none d-lg-flex">
+                <div class="col-lg-6  copyright">
+                    <h2> GoodRussian — лучший способ <span class="main-red"><br />выучить русский язык</span></h2>
+                    <p>&copy; 2019-2025 ООО «Гудрашн»</p>
+                </div>
+                <div class="col-lg-6 copyright">
+                    <div class="row">
+                        <div class="col-lg-6">
+
+                            <h3>Дополнительная информация</h3>
+                            <a href="/doc/termsofuse.pdf">Условия использования</a><br />
+                            <a href="/doc/privacypolicy.pdf">Обработка данных</a><br />
+                            <a href="/doc/license.pdf">Лицензия</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>Подписывайтесь</h3>
+                            <a class="social" href="https://www.youtube.com/channel/UCK5IZyUGHsSmKrszOMmt-jQ">
+                                <img src="/img/youtube.png" />
+                            </a>
+
+                            <a class="social" href="https://t.me/GoodRussian_School">
+                                <img src="/img/tg.png" />
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <input type="hidden" id="Notification" />
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.unobtrusive-ajax/3.2.5/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script src="/lib/notify/notify.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("select").change(function () {
+                $(this).removeClass("place-holder");
+            });
+            var allWells = $('.setup-content'),
+                allNextBtn = $('.nextBtn');
+
+            allWells.hide();
+            allWells.first().show();
+
+            allNextBtn.click(function () {
+                var curStep = $(this).closest(".setup-content"),
+                    curInputs = curStep.find("input[type='text'],input[type='url'],input[type='date'], select"),
+                    isValid = true;
+
+                $(".form-group").removeClass("has-error");
+                for (var i = 0; i < curInputs.length; i++) {
+                    if (!curInputs[i].validity.valid) {
+                        isValid = false;
+                        $(curInputs[i]).addClass("is-invalid");
+                    }
+                    else
+                        $(curInputs[i]).addClass("is-valid");
+                }
+
+                if (isValid) {
+                    var target = $(this).data('target')
+                    if (target) {
+                        var $target = $('#' + target);
+                        allWells.hide();
+                        $target.show();
+                        $target.find('input:eq(0)').focus();
+                    }
+                }
+                else {
+                    return false;
+                }
+            });
+
+
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            var notification = $('#Notification').val()
+            if (notification) {
+                var message = JSON.parse(notification)
+                $.notify(message.Message, message.TypeString);
+            }
+
+            $(".main-menu-icon").click(function (event) {
+                $(".user-menu").removeClass("show");
+            });
+            $(".login-photo.avatar").click(function (event) {
+                $(".main-menu").removeClass("show");
+            });
+            $('#feedbacksend').click(function () {
+                var isvalid = $('#formfeedback').validate()
+                if (!$('#formfeedback').valid())
+                    return false;
+
+
+                var model = {
+                    name: $('#feedbackname').val(),
+                    email: $('#feedbackemail').val(),
+                    message: $('#feedbackmessage').val(),
+                }
+                $.ajax({
+                    url: '/home/feedback',
+                    type: 'post',
+                    dataType: 'application/json',
+                    data: JSON.stringify(model),
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (result) {
+                        if (result.code == 0) {
+                            $.notify("Thank you for your feedback!", "success");
+                            $('#feedbackname').val('')
+                            $('#feedbackemail').val('')
+                            $('#feedbackmessage').val('')
+                        } else {
+                            $.notify(result.description, "error");
+                        }
+                    },
+                    failure: function () {
+                        $.notify(result.description, "error");
+                    }
+                });
+
+                return false;
+            })
+
+            $('.menu-item').mouseenter(function () {
+                $(this).addClass('active2')
+            })
+            $('.menu-item').mouseleave(function () {
+                $(this).removeClass('active2')
+            })
+
+            $('.currency-select').change(function () {
+                var currency = this.value
+                var expires = new Date();
+                expires.setTime(expires.getTime() + (365 * 24 * 60 * 60 * 1000));
+                document.cookie = 'currency=' + currency + ';path=/' + ';expires=' + expires.toUTCString();
+
+                location.reload();
+            })
+        })
+    </script>
+
+
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162999277-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-162999277-1');
+        </script>
+
+
+        <!-- Facebook Pixel Code -->
+        <!--<script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq) return; n = f.fbq = function () {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+                n.queue = []; t = b.createElement(e); t.async = !0;
+                t.src = v; s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '690097031544335');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=690097031544335&ev=PageView&noscript=1" />
+        </noscript>-->
+        <!-- End Facebook Pixel Code -->
+    
+</body>
+</html>
