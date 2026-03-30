@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,11 +13,13 @@
         .news-list-page {
             padding: 60px 0;
         }
+
         .news-list-item {
             border-bottom: 1px solid #eee;
             padding: 30px 0;
             transition: all 0.3s ease;
         }
+
         .news-list-item:hover {
             background: #f9f9f9;
             padding-left: 15px;
@@ -24,19 +27,23 @@
             margin: 0 -15px;
             border-radius: 8px;
         }
+
         .news-list-media {
             position: relative;
             border-radius: 8px;
             overflow: hidden;
         }
+
         .news-list-media.single img {
             height: 200px;
             object-fit: cover;
         }
+
         .news-list-media.grid img {
             height: 120px;
             object-fit: cover;
         }
+
         .news-list-media.video .video-indicator {
             position: absolute;
             top: 10px;
@@ -47,58 +54,217 @@
             border-radius: 4px;
             font-size: 12px;
         }
+
         .news-meta {
             color: #777;
             font-size: 0.9rem;
             margin-bottom: 10px;
         }
+
         .news-list-title {
             color: #333;
             margin-bottom: 15px;
             line-height: 1.3;
         }
+
         .news-list-excerpt {
             color: #555;
             line-height: 1.6;
             margin-bottom: 15px;
         }
+
         .read-more {
             color: #d32f2f;
             font-weight: 500;
             text-decoration: none;
         }
+
         .read-more:hover {
             text-decoration: underline;
         }
+
         .sidebar-news {
             background: #f8f9fa;
             padding: 25px;
             border-radius: 8px;
             margin-bottom: 30px;
         }
+
         .archive-list {
             list-style: none;
             padding: 0;
         }
+
         .archive-list li {
             margin-bottom: 8px;
         }
+
         .archive-list a {
             color: #555;
             text-decoration: none;
         }
+
         .archive-list a:hover {
             color: #d32f2f;
         }
+
         .page-header {
             margin-bottom: 40px;
         }
     </style>
 </head>
+
 <body>
-    <!-- Шапка как в index.html -->
     <header>
-        <!-- Навигация как в основном файле -->
+        <nav class="navbar navbar-expand-lg navbar-toggleable-lg navbar-light bg-white  box-shadow">
+            <div class="container">
+                <div>
+                    <button class="navbar-toggler main-menu-icon" type="button" data-toggle="collapse"
+                        data-target=".main-menu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img src="/img/logo.png" />
+                    </a>
+                </div>
+                <div class="d-lg-none">
+
+                    <ul class="navbar-nav" style="flex-direction: row;">
+                        <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4">
+
+
+
+                            <div title="Request culture provider: AcceptLanguageHeaderRequestCultureProvider">
+                                <form id="selectLanguage" method="post" class="form-horizontal" role="form"
+                                    action="/Home/SetLanguage?returnUrl=~%2F">
+                                    <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
+                                    <input name="__RequestVerificationToken" type="hidden"
+                                        value="CfDJ8EEdmykHV7JCkgIU1yfRwZipJ_QVYT1f1m1qX8FUuPgXQqaHN5ByRp8FeZ2vxLNaosVkvSw-k2qzP_aTpLFEGfIXj14zregEF_5v2kbnvAi4mAnIIMoCvWxFj4M6yAL2G2Rzi-4cpZqa3XOJ_OsaUcE" />
+                                </form>
+                            </div>
+                        </li>
+                        <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
+                            <select class="currency-select form-control custom-select" style="cursor:pointer;">
+                                <option selected="selected" value="RUB">&#x20BD;</option>
+                                <option value="UZS">S&#x2BB;</option>
+                                <option value="USD">$</option>
+                                <option value="EURO">&#x20AC;</option>
+                                <option value="YUAN">&#xA5;</option>
+                            </select>
+                        </li>
+                        <li class="nav-item pr-2 btn-case-nav pr-lg-4 text-center">
+                            <a class="nav-link btn-case" href="/Profile/Cart">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn main-blue-bg btn-login d-none d-lg-block"
+                                href="/Account/Login">вход/регистрация</a>
+                            <a class="nav-link d-block d-lg-none" href="/Account/Login">
+                                <img src="/img/icon-user.png" />
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="navbar-collapse main-menu collapse d-lg-inline-flex flex-lg-row-reverse">
+
+                    <ul class="navbar-nav flex-grow-1 mt-4 mt-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link main-blue" href="/LiveCourses">курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/SelfStudyCourses">самообучение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/AboutUs.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/Contacts.html">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link main-blue" href="/Profile/EntranceTesting">экзамен</a>
+                        </li>
+                    </ul>
+                    <div class="d-lg-none text-center mt-4 mb-3">
+                        <a class="social" href="https://vk.com/goodrussian.school">
+                            <img src="/img/vk32.png" />
+                        </a>
+                        <a class="social" href="https://twitter.com/GoodRussiansch1">
+                            <img src="/img/twitter32.png" />
+                        </a>
+                        <a class="social" href="https://www.youtube.com/channel/UCd3PAwDx7rp5oMpusrw7vlg/">
+                            <img src="/img/youtube32.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-block">
+
+                    <ul class="navbar-nav" style="flex-direction: row;">
+                        <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4">
+
+
+
+                            <div title="Request culture provider: AcceptLanguageHeaderRequestCultureProvider">
+                                <form id="selectLanguage" method="post" class="form-horizontal" role="form"
+                                    action="/Home/SetLanguage?returnUrl=~%2F">
+                                    <button name="culture" value="en-us" type="submit" class="flag">🇬🇧</button>
+                                    <input name="__RequestVerificationToken" type="hidden"
+                                        value="CfDJ8EEdmykHV7JCkgIU1yfRwZipJ_QVYT1f1m1qX8FUuPgXQqaHN5ByRp8FeZ2vxLNaosVkvSw-k2qzP_aTpLFEGfIXj14zregEF_5v2kbnvAi4mAnIIMoCvWxFj4M6yAL2G2Rzi-4cpZqa3XOJ_OsaUcE" />
+                                </form>
+                            </div>
+                        </li>
+                        <li class="nav-item text-center btn-case-nav pr-2 pr-lg-4 ">
+                            <select class="currency-select form-control custom-select" style="cursor:pointer;">
+                                <option selected="selected" value="RUB">&#x20BD;</option>
+                                <option value="UZS">S&#x2BB;</option>
+                                <option value="USD">$</option>
+                                <option value="EURO">&#x20AC;</option>
+                                <option value="YUAN">&#xA5;</option>
+                            </select>
+                        </li>
+                        <li class="nav-item pr-2 btn-case-nav pr-lg-4 text-center">
+                            <a class="nav-link btn-case" href="/Profile/Cart">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn main-blue-bg btn-login d-none d-lg-block"
+                                href="/Account/Login">вход/регистрация</a>
+                            <a class="nav-link d-block d-lg-none" href="/Account/Login">
+                                <img src="/img/icon-user.png" />
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="navbar-collapse user-menu collapse d-lg-none navbar navbar-light bg-white  box-shadow">
+
+            <ul class="navbar-nav flex-grow-1 mt-4 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/Profile/EntranceTesting">экзамен</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link main-blue" href="/Profile/Lessons">Мои курсы</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link main-blue" href="/Profile/Tests">Мои тесты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link main-blue" href="/Profile/Subscriptions">Подписки</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link main-blue" href="/Profile/Settings">Настройки</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Account/Logout">Выйти</a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <section class="news-list-page">
@@ -120,10 +286,12 @@
                                 <div class="news-list-media grid">
                                     <div class="row no-gutters">
                                         <div class="col-6">
-                                            <img src="/img/news/news_7_1.jpg" alt="Фестиваль в двух странах" class="img-fluid">
+                                            <img src="/img/news/news_7_1.jpg" alt="Фестиваль в двух странах"
+                                                class="img-fluid">
                                         </div>
                                         <div class="col-6">
-                                            <img src="/img/news/news_7_2.jpg" alt="Участники фестиваля" class="img-fluid">
+                                            <img src="/img/news/news_7_2.jpg" alt="Участники фестиваля"
+                                                class="img-fluid">
                                         </div>
                                         <div class="col-6">
                                             <img src="/img/news/news_7_3.jpg" alt="Творческие работы" class="img-fluid">
@@ -140,9 +308,12 @@
                             <div class="col-md-8">
                                 <div class="news-meta">24 ноября 2025</div>
                                 <h2 class="news-list-title">
-                                    <a href="/News/7" class="text-dark">Фестиваль «Язык русских сказок»: два государства, одна история, сотни участников</a>
+                                    <a href="/News/7" class="text-dark">Фестиваль «Язык русских сказок»: два
+                                        государства, одна история, сотни участников</a>
                                 </h2>
-                                <p class="news-list-excerpt">Впервые фестиваль русского фольклора и культуры прошёл одновременно в двух странах — Перу и Никарагуа, став по-настоящему международным культурным и творческим событием...</p>
+                                <p class="news-list-excerpt">Впервые фестиваль русского фольклора и культуры прошёл
+                                    одновременно в двух странах — Перу и Никарагуа, став по-настоящему международным
+                                    культурным и творческим событием...</p>
                                 <a href="/News/7" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -155,7 +326,8 @@
                                 <div class="news-list-media grid">
                                     <div class="row no-gutters">
                                         <div class="col-4">
-                                            <img src="/img/news/news_6_1.jpg" alt="Закрытие фестиваля" class="img-fluid">
+                                            <img src="/img/news/news_6_1.jpg" alt="Закрытие фестиваля"
+                                                class="img-fluid">
                                         </div>
                                         <div class="col-4">
                                             <img src="/img/news/news_6_2.jpg" alt="Выступления" class="img-fluid">
@@ -178,9 +350,12 @@
                             <div class="col-md-8">
                                 <div class="news-meta">23 ноября 2025</div>
                                 <h2 class="news-list-title">
-                                    <a href="/News/6" class="text-dark">Фестиваль «Язык русских сказок» завершился в лицее Санто Доминго в Лиме</a>
+                                    <a href="/News/6" class="text-dark">Фестиваль «Язык русских сказок» завершился в
+                                        лицее Санто Доминго в Лиме</a>
                                 </h2>
-                                <p class="news-list-excerpt">Сегодня в лицее Санто Доминго прошёл заключительный день фестиваля «Язык русских сказок». День получился ярким, насыщенным и по-настоящему праздничным!</p>
+                                <p class="news-list-excerpt">Сегодня в лицее Санто Доминго прошёл заключительный день
+                                    фестиваля «Язык русских сказок». День получился ярким, насыщенным и по-настоящему
+                                    праздничным!</p>
                                 <a href="/News/6" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -202,7 +377,9 @@
                                 <h2 class="news-list-title">
                                     <a href="/News/5" class="text-dark">Операция «Карлота»: история солидарности</a>
                                 </h2>
-                                <p class="news-list-excerpt">Операция «Карлота» была частью кубинской военной операции по освобождению Анголы и Намибии от колониальных сил ЮАР, которая продлилась до 1991 года...</p>
+                                <p class="news-list-excerpt">Операция «Карлота» была частью кубинской военной операции
+                                    по освобождению Анголы и Намибии от колониальных сил ЮАР, которая продлилась до 1991
+                                    года...</p>
                                 <a href="/News/5" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -221,7 +398,8 @@
                                             <img src="/img/news/news_4_2.jpg" alt="Участники" class="img-fluid">
                                         </div>
                                         <div class="col-6">
-                                            <img src="/img/news/news_4_3.jpg" alt="Творческий процесс" class="img-fluid">
+                                            <img src="/img/news/news_4_3.jpg" alt="Творческий процесс"
+                                                class="img-fluid">
                                         </div>
                                         <div class="col-6">
                                             <img src="/img/news/news_4_4.jpg" alt="Работы участников" class="img-fluid">
@@ -234,7 +412,9 @@
                                 <h2 class="news-list-title">
                                     <a href="/News/4" class="text-dark">Старт фестиваля «Язык русских сказок» в Лиме</a>
                                 </h2>
-                                <p class="news-list-excerpt">Сегодня в Лиме, столице Перу, стартовал фестиваль «Язык русских сказок» для школьников лицея «Santo Domingo». Первый день оказался по-настоящему насыщенным...</p>
+                                <p class="news-list-excerpt">Сегодня в Лиме, столице Перу, стартовал фестиваль «Язык
+                                    русских сказок» для школьников лицея «Santo Domingo». Первый день оказался
+                                    по-настоящему насыщенным...</p>
                                 <a href="/News/4" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -251,9 +431,12 @@
                             <div class="col-md-8">
                                 <div class="news-meta">21 ноября 2025</div>
                                 <h2 class="news-list-title">
-                                    <a href="/News/3" class="text-dark">Мастер-класс по гжели на фестивале в Никарагуа</a>
+                                    <a href="/News/3" class="text-dark">Мастер-класс по гжели на фестивале в
+                                        Никарагуа</a>
                                 </h2>
-                                <p class="news-list-excerpt">Фестиваль русского фольклора и культуры «Язык русских сказок» в Республике Никарагуа в самом разгаре и каждый день дарит гостям новые впечатления и открытия!</p>
+                                <p class="news-list-excerpt">Фестиваль русского фольклора и культуры «Язык русских
+                                    сказок» в Республике Никарагуа в самом разгаре и каждый день дарит гостям новые
+                                    впечатления и открытия!</p>
                                 <a href="/News/3" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -270,9 +453,11 @@
                             <div class="col-md-8">
                                 <div class="news-meta">17 ноября 2025</div>
                                 <h2 class="news-list-title">
-                                    <a href="/News/2" class="text-dark">В Никарагуа пройдёт фестиваль русского языка и культуры «Язык русских сказок»</a>
+                                    <a href="/News/2" class="text-dark">В Никарагуа пройдёт фестиваль русского языка и
+                                        культуры «Язык русских сказок»</a>
                                 </h2>
-                                <p class="news-list-excerpt">Фестиваль пройдёт с 18 по 20 ноября в городе Хинотепе. Его цель — популяризация русского языка через народный фольклор...</p>
+                                <p class="news-list-excerpt">Фестиваль пройдёт с 18 по 20 ноября в городе Хинотепе. Его
+                                    цель — популяризация русского языка через народный фольклор...</p>
                                 <a href="/News/2" class="read-more">Читать далее →</a>
                             </div>
                         </div>
@@ -289,16 +474,19 @@
                             <div class="col-md-8">
                                 <div class="news-meta">17 ноября 2025</div>
                                 <h2 class="news-list-title">
-                                    <a href="/News/1" class="text-dark">Фестиваль «Язык русских сказок» приедет в Перу</a>
+                                    <a href="/News/1" class="text-dark">Фестиваль «Язык русских сказок» приедет в
+                                        Перу</a>
                                 </h2>
-                                <p class="news-list-excerpt">С 18 по 20 ноября в Лиме пройдёт фестиваль русского языка и культуры, где школьники столицы познакомятся с русским фольклором, традициями и художественным наследием России.</p>
+                                <p class="news-list-excerpt">С 18 по 20 ноября в Лиме пройдёт фестиваль русского языка и
+                                    культуры, где школьники столицы познакомятся с русским фольклором, традициями и
+                                    художественным наследием России.</p>
                                 <a href="/News/1" class="read-more">Читать далее →</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                
+
                 <div class="col-lg-4">
                     <div class="sidebar-news">
                         <h3>Архив новостей</h3>
@@ -311,7 +499,7 @@
                             <li><a href="/News/Archive/2025/06">Июнь 2025</a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="sidebar-news">
                         <h3>Категории</h3>
                         <ul class="archive-list">
@@ -334,4 +522,5 @@
     <script src="/lib/jquery/dist/jquery.min.js"></script>
     <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
