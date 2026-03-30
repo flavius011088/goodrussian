@@ -157,7 +157,8 @@ function fix_encoding($html, $convert_from='utf-8', $convert_to_encoding='window
 function send_guessed_headers_by_filename($filename='') {
  $extensions = array(
    'js'=>'application/javascript',
-
+   'html'=>'text/html',
+   'htm'=>'text/html',
 
   'jpg'=>'image/jpeg',
   'jpeg'=>'image/jpeg',
@@ -187,7 +188,7 @@ function send_guessed_headers_by_filename($filename='') {
         }
    } 
 
-header("Content-Type: $content_type");
+header("Content-Type: $content_type; charset=UTF-8");
 
 }
 
