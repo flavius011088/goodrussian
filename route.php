@@ -29,7 +29,8 @@ $assert['end']=file_exists("$d/end.txt")?file_get_contents("$d/end.txt"):'';
 
 
 
-$p = $_SERVER['QUERY_STRING'];
+$p = ltrim($_SERVER['REQUEST_URI'], '/');
+//die($p);
 //die($p);
 
 //некоторые дефолтные конфигурации apache дают '&' вместо '?' при rewrite..
@@ -55,6 +56,10 @@ $routes = file_get_contents("$d/route.txt");
 
 
 list($p, $routed_file) = find_best_match($routes, $p);
+
+if ($routed_file == '' && file_exists($p . '.html')) {
+    $routed_file = $p . '.html';
+}
 
 // Basic Protection
 
