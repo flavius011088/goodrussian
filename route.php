@@ -52,6 +52,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $p === '/Home/SetLanguage') {
     handle_set_language_request($request_query);
 }
 
+// Обработчик Account (регистрация, вход, сброс пароля, выход)
+$account_actions = array('/Account/Login', '/Account/Register', '/Account/ForgotPassword', '/Account/Logout');
+if (in_array($p, $account_actions)) {
+    include_once __DIR__ . '/Account/account.php';
+    exit;
+}
+
 $routes = file_get_contents("$d/route.txt");
 
 

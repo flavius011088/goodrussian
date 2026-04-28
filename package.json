@@ -4,7 +4,7 @@
   "description": "Домашняя страница",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -p 8080"
+    "start": "http-server -p 8081"
   },
   "dependencies": {
     "http-server": "^14.1.1"
