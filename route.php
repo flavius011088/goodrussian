@@ -38,6 +38,19 @@ $p = $_SERVER['QUERY_STRING'];
 $p = str_replace('route.php&', '', $p);
 $p = str_replace('route.php', '', $p);
 
+$request_query = '';
+$request_path = $p;
+if (strpos($p, '?') !== false) {
+    list($request_path, $request_query) = explode('?', $p, 2);
+}
+$request_path = $request_path === '' ? '/' : $request_path;
+$p = $request_path;
+
+// Обработчик изменения языка, используемый формами POST на статических страницах.
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && $p === '/Home/SetLanguage') {
+    handle_set_language_request($request_query);
+}
+
 $routes = file_get_contents("$d/route.txt");
 
 
@@ -266,6 +279,53 @@ function find_best_match($routes, $p='') {
   return $routed_file ? array($p, $routed_file) : array($p, $p);
 }
 
+
+function handle_set_language_request($rawQuery) {
+    $culture = isset($_POST['culture']) ? trim($_POST['culture']) : '';
+    $returnUrl = extract_return_url($rawQuery);
+    if ($returnUrl === '' && isset($_GET['returnUrl'])) {
+        $returnUrl = $_GET['returnUrl'];
+    }
+    $returnUrl = sanitize_return_url($returnUrl);
+
+    $culture = strtolower($culture);
+    $allowedCultures = array('en-us', 'ru-ru');
+    if (!in_array($culture, $allowedCultures, true)) {
+        $culture = 'ru-ru';
+    }
+
+    setcookie('culture', $culture, time() + 31536000, '/', '', false, true);
+    header('Location: ' . $returnUrl);
+    exit;
+}
+
+function extract_return_url($rawQuery) {
+    $returnUrl = '';
+    if ($rawQuery !== '') {
+        parse_str($rawQuery, $queryData);
+        if (isset($queryData['returnUrl'])) {
+            $returnUrl = $queryData['returnUrl'];
+        }
+    }
+    return $returnUrl;
+}
+
+function sanitize_return_url($returnUrl) {
+    $returnUrl = trim(rawurldecode($returnUrl));
+    if ($returnUrl === '' || $returnUrl === '~' || $returnUrl === '~/' || $returnUrl === '~%2F') {
+        return '/';
+    }
+    if (strpos($returnUrl, '~/') === 0) {
+        $returnUrl = substr($returnUrl, 1);
+    }
+    if (strpos($returnUrl, '/') !== 0) {
+        return '/';
+    }
+    if (preg_match('#^[a-zA-Z0-9\-_.]+://#', $returnUrl)) {
+        return '/';
+    }
+    return $returnUrl;
+}
 
 function die_not_found($page) {
 
